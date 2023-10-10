@@ -1,0 +1,10 @@
+D:\projects\Równania liniowe\bin\Debug\Równania liniowe.exe.config
+D:\projects\Równania liniowe\bin\Debug\Równania liniowe.exe
+D:\projects\Równania liniowe\bin\Debug\Równania liniowe.pdb
+D:\projects\Równania liniowe\obj\Debug\Równania liniowe.csproj.AssemblyReference.cache
+D:\projects\Równania liniowe\obj\Debug\Równania_liniowe.Form1.resources
+D:\projects\Równania liniowe\obj\Debug\Równania_liniowe.Properties.Resources.resources
+D:\projects\Równania liniowe\obj\Debug\Równania liniowe.csproj.GenerateResource.cache
+D:\projects\Równania liniowe\obj\Debug\Równania liniowe.csproj.CoreCompileInputs.cache
+D:\projects\Równania liniowe\obj\Debug\Równania liniowe.exe
+D:\projects\Równania liniowe\obj\Debug\Równania liniowe.pdb

@@ -1,0 +1,10 @@
+D:\projects\Reakcja na zawarte przyciski w oknie dialogowym\bin\Debug\Reakcja na zawarte przyciski w oknie dialogowym.exe.config
+D:\projects\Reakcja na zawarte przyciski w oknie dialogowym\bin\Debug\Reakcja na zawarte przyciski w oknie dialogowym.exe
+D:\projects\Reakcja na zawarte przyciski w oknie dialogowym\bin\Debug\Reakcja na zawarte przyciski w oknie dialogowym.pdb
+D:\projects\Reakcja na zawarte przyciski w oknie dialogowym\obj\Debug\Reakcja na zawarte przyciski w oknie dialogowym.csproj.AssemblyReference.cache
+D:\projects\Reakcja na zawarte przyciski w oknie dialogowym\obj\Debug\Reakcja_na_zawarte_przyciski_w_oknie_dialogowym.Form1.resources
+D:\projects\Reakcja na zawarte przyciski w oknie dialogowym\obj\Debug\Reakcja_na_zawarte_przyciski_w_oknie_dialogowym.Properties.Resources.resources
+D:\projects\Reakcja na zawarte przyciski w oknie dialogowym\obj\Debug\Reakcja na zawarte przyciski w oknie dialogowym.csproj.GenerateResource.cache
+D:\projects\Reakcja na zawarte przyciski w oknie dialogowym\obj\Debug\Reakcja na zawarte przyciski w oknie dialogowym.csproj.CoreCompileInputs.cache
+D:\projects\Reakcja na zawarte przyciski w oknie dialogowym\obj\Debug\Reakcja na zawarte przyciski w oknie dialogowym.exe
+D:\projects\Reakcja na zawarte przyciski w oknie dialogowym\obj\Debug\Reakcja na zawarte przyciski w oknie dialogowym.pdb

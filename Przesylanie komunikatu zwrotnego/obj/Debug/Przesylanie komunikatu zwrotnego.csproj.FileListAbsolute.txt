@@ -1,0 +1,10 @@
+D:\projects\Przesylanie komunikatu zwrotnego\bin\Debug\Przesylanie komunikatu zwrotnego.exe.config
+D:\projects\Przesylanie komunikatu zwrotnego\bin\Debug\Przesylanie komunikatu zwrotnego.exe
+D:\projects\Przesylanie komunikatu zwrotnego\bin\Debug\Przesylanie komunikatu zwrotnego.pdb
+D:\projects\Przesylanie komunikatu zwrotnego\obj\Debug\Przesylanie komunikatu zwrotnego.csproj.AssemblyReference.cache
+D:\projects\Przesylanie komunikatu zwrotnego\obj\Debug\Przesylanie_komunikatu_zwrotnego.Form1.resources
+D:\projects\Przesylanie komunikatu zwrotnego\obj\Debug\Przesylanie_komunikatu_zwrotnego.Properties.Resources.resources
+D:\projects\Przesylanie komunikatu zwrotnego\obj\Debug\Przesylanie komunikatu zwrotnego.csproj.GenerateResource.cache
+D:\projects\Przesylanie komunikatu zwrotnego\obj\Debug\Przesylanie komunikatu zwrotnego.csproj.CoreCompileInputs.cache
+D:\projects\Przesylanie komunikatu zwrotnego\obj\Debug\Przesylanie komunikatu zwrotnego.exe
+D:\projects\Przesylanie komunikatu zwrotnego\obj\Debug\Przesylanie komunikatu zwrotnego.pdb
