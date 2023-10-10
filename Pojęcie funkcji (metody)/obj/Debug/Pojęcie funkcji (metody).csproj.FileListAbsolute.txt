@@ -1,0 +1,10 @@
+D:\projects\Pojęcie funkcji (metody)\bin\Debug\Pojęcie funkcji (metody).exe.config
+D:\projects\Pojęcie funkcji (metody)\bin\Debug\Pojęcie funkcji (metody).exe
+D:\projects\Pojęcie funkcji (metody)\bin\Debug\Pojęcie funkcji (metody).pdb
+D:\projects\Pojęcie funkcji (metody)\obj\Debug\Pojęcie funkcji (metody).csproj.AssemblyReference.cache
+D:\projects\Pojęcie funkcji (metody)\obj\Debug\Pojęcie_funkcji__metody_.Form1.resources
+D:\projects\Pojęcie funkcji (metody)\obj\Debug\Pojęcie_funkcji__metody_.Properties.Resources.resources
+D:\projects\Pojęcie funkcji (metody)\obj\Debug\Pojęcie funkcji (metody).csproj.GenerateResource.cache
+D:\projects\Pojęcie funkcji (metody)\obj\Debug\Pojęcie funkcji (metody).csproj.CoreCompileInputs.cache
+D:\projects\Pojęcie funkcji (metody)\obj\Debug\Pojęcie funkcji (metody).exe
+D:\projects\Pojęcie funkcji (metody)\obj\Debug\Pojęcie funkcji (metody).pdb

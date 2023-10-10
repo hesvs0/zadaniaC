@@ -1,0 +1,10 @@
+D:\projects\Iteraje  zagniezdzone\bin\Debug\Iteraje  zagniezdzone.exe.config
+D:\projects\Iteraje  zagniezdzone\bin\Debug\Iteraje  zagniezdzone.exe
+D:\projects\Iteraje  zagniezdzone\bin\Debug\Iteraje  zagniezdzone.pdb
+D:\projects\Iteraje  zagniezdzone\obj\Debug\Iteraje  zagniezdzone.csproj.AssemblyReference.cache
+D:\projects\Iteraje  zagniezdzone\obj\Debug\Iteraje__zagniezdzone.Form1.resources
+D:\projects\Iteraje  zagniezdzone\obj\Debug\Iteraje__zagniezdzone.Properties.Resources.resources
+D:\projects\Iteraje  zagniezdzone\obj\Debug\Iteraje  zagniezdzone.csproj.GenerateResource.cache
+D:\projects\Iteraje  zagniezdzone\obj\Debug\Iteraje  zagniezdzone.csproj.CoreCompileInputs.cache
+D:\projects\Iteraje  zagniezdzone\obj\Debug\Iteraje  zagniezdzone.exe
+D:\projects\Iteraje  zagniezdzone\obj\Debug\Iteraje  zagniezdzone.pdb

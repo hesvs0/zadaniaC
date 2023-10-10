@@ -1,0 +1,10 @@
+D:\projects\Kalkulator prosty\bin\Debug\Kalkulator prosty.exe.config
+D:\projects\Kalkulator prosty\bin\Debug\Kalkulator prosty.exe
+D:\projects\Kalkulator prosty\bin\Debug\Kalkulator prosty.pdb
+D:\projects\Kalkulator prosty\obj\Debug\Kalkulator prosty.csproj.AssemblyReference.cache
+D:\projects\Kalkulator prosty\obj\Debug\Kalkulator_prosty.Form1.resources
+D:\projects\Kalkulator prosty\obj\Debug\Kalkulator_prosty.Properties.Resources.resources
+D:\projects\Kalkulator prosty\obj\Debug\Kalkulator prosty.csproj.GenerateResource.cache
+D:\projects\Kalkulator prosty\obj\Debug\Kalkulator prosty.csproj.CoreCompileInputs.cache
+D:\projects\Kalkulator prosty\obj\Debug\Kalkulator prosty.exe
+D:\projects\Kalkulator prosty\obj\Debug\Kalkulator prosty.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalkulator prosty", "Kalkulator prosty.csproj", "{B82B66F5-1093-4CCB-843D-19550AFDFDCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B82B66F5-1093-4CCB-843D-19550AFDFDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82B66F5-1093-4CCB-843D-19550AFDFDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82B66F5-1093-4CCB-843D-19550AFDFDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82B66F5-1093-4CCB-843D-19550AFDFDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F672B697-3FE3-4DA5-A39D-86ADE575567D}
+	EndGlobalSection
+EndGlobal

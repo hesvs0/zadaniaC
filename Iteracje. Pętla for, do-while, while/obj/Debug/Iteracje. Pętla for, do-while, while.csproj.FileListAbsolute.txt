@@ -1,0 +1,10 @@
+D:\projects\Iteracje. Pętla for, do-while, while\bin\Debug\Iteracje.Pętla_for__do_while__while.exe.config
+D:\projects\Iteracje. Pętla for, do-while, while\bin\Debug\Iteracje.Pętla_for__do_while__while.exe
+D:\projects\Iteracje. Pętla for, do-while, while\bin\Debug\Iteracje.Pętla_for__do_while__while.pdb
+D:\projects\Iteracje. Pętla for, do-while, while\obj\Debug\Iteracje. Pętla for, do-while, while.csproj.AssemblyReference.cache
+D:\projects\Iteracje. Pętla for, do-while, while\obj\Debug\Iteracje.Pętla_for__do_while__while.Form1.resources
+D:\projects\Iteracje. Pętla for, do-while, while\obj\Debug\Iteracje.Pętla_for__do_while__while.Properties.Resources.resources
+D:\projects\Iteracje. Pętla for, do-while, while\obj\Debug\Iteracje. Pętla for, do-while, while.csproj.GenerateResource.cache
+D:\projects\Iteracje. Pętla for, do-while, while\obj\Debug\Iteracje. Pętla for, do-while, while.csproj.CoreCompileInputs.cache
+D:\projects\Iteracje. Pętla for, do-while, while\obj\Debug\Iteracje.Pętla_for__do_while__while.exe
+D:\projects\Iteracje. Pętla for, do-while, while\obj\Debug\Iteracje.Pętla_for__do_while__while.pdb
