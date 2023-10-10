@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Przechwytywanie zdarzeń myszy", "Przechwytywanie zdarzeń myszy.csproj", "{140A3DFE-3096-4AB2-B44A-C06B3C76785C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{140A3DFE-3096-4AB2-B44A-C06B3C76785C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140A3DFE-3096-4AB2-B44A-C06B3C76785C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140A3DFE-3096-4AB2-B44A-C06B3C76785C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140A3DFE-3096-4AB2-B44A-C06B3C76785C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93834570-847F-412D-88B1-BA93DE33A471}
+	EndGlobalSection
+EndGlobal

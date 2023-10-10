@@ -1,0 +1,10 @@
+D:\projects\Przechwytywanie zdarzeń klawiatury\bin\Debug\Przechwytywanie zdarzeń klawiatury.exe.config
+D:\projects\Przechwytywanie zdarzeń klawiatury\bin\Debug\Przechwytywanie zdarzeń klawiatury.exe
+D:\projects\Przechwytywanie zdarzeń klawiatury\bin\Debug\Przechwytywanie zdarzeń klawiatury.pdb
+D:\projects\Przechwytywanie zdarzeń klawiatury\obj\Debug\Przechwytywanie zdarzeń klawiatury.csproj.AssemblyReference.cache
+D:\projects\Przechwytywanie zdarzeń klawiatury\obj\Debug\Przechwytywanie_zdarzeń_klawiatury.Form1.resources
+D:\projects\Przechwytywanie zdarzeń klawiatury\obj\Debug\Przechwytywanie_zdarzeń_klawiatury.Properties.Resources.resources
+D:\projects\Przechwytywanie zdarzeń klawiatury\obj\Debug\Przechwytywanie zdarzeń klawiatury.csproj.GenerateResource.cache
+D:\projects\Przechwytywanie zdarzeń klawiatury\obj\Debug\Przechwytywanie zdarzeń klawiatury.csproj.CoreCompileInputs.cache
+D:\projects\Przechwytywanie zdarzeń klawiatury\obj\Debug\Przechwytywanie zdarzeń klawiatury.exe
+D:\projects\Przechwytywanie zdarzeń klawiatury\obj\Debug\Przechwytywanie zdarzeń klawiatury.pdb

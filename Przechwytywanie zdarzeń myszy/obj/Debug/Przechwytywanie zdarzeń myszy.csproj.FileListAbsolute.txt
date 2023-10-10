@@ -1,0 +1,10 @@
+D:\projects\Przechwytywanie zdarzeń myszy\bin\Debug\Przechwytywanie zdarzeń myszy.exe.config
+D:\projects\Przechwytywanie zdarzeń myszy\bin\Debug\Przechwytywanie zdarzeń myszy.exe
+D:\projects\Przechwytywanie zdarzeń myszy\bin\Debug\Przechwytywanie zdarzeń myszy.pdb
+D:\projects\Przechwytywanie zdarzeń myszy\obj\Debug\Przechwytywanie zdarzeń myszy.csproj.AssemblyReference.cache
+D:\projects\Przechwytywanie zdarzeń myszy\obj\Debug\Przechwytywanie_zdarzeń_myszy.Form1.resources
+D:\projects\Przechwytywanie zdarzeń myszy\obj\Debug\Przechwytywanie_zdarzeń_myszy.Properties.Resources.resources
+D:\projects\Przechwytywanie zdarzeń myszy\obj\Debug\Przechwytywanie zdarzeń myszy.csproj.GenerateResource.cache
+D:\projects\Przechwytywanie zdarzeń myszy\obj\Debug\Przechwytywanie zdarzeń myszy.csproj.CoreCompileInputs.cache
+D:\projects\Przechwytywanie zdarzeń myszy\obj\Debug\Przechwytywanie zdarzeń myszy.exe
+D:\projects\Przechwytywanie zdarzeń myszy\obj\Debug\Przechwytywanie zdarzeń myszy.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Przechwytywanie zdarzeń klawiatury", "Przechwytywanie zdarzeń klawiatury.csproj", "{0058F5FC-32DD-4775-99CF-02179D0C7E9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0058F5FC-32DD-4775-99CF-02179D0C7E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0058F5FC-32DD-4775-99CF-02179D0C7E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0058F5FC-32DD-4775-99CF-02179D0C7E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0058F5FC-32DD-4775-99CF-02179D0C7E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B56CF5B-1F34-4725-8C95-0E4AC228037C}
+	EndGlobalSection
+EndGlobal

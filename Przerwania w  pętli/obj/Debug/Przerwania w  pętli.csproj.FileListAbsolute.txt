@@ -1,0 +1,10 @@
+D:\projects\Przerwania w  pętli\bin\Debug\Przerwania w  pętli.exe.config
+D:\projects\Przerwania w  pętli\bin\Debug\Przerwania w  pętli.exe
+D:\projects\Przerwania w  pętli\bin\Debug\Przerwania w  pętli.pdb
+D:\projects\Przerwania w  pętli\obj\Debug\Przerwania w  pętli.csproj.AssemblyReference.cache
+D:\projects\Przerwania w  pętli\obj\Debug\Przerwania_w__pętli.Form1.resources
+D:\projects\Przerwania w  pętli\obj\Debug\Przerwania_w__pętli.Properties.Resources.resources
+D:\projects\Przerwania w  pętli\obj\Debug\Przerwania w  pętli.csproj.GenerateResource.cache
+D:\projects\Przerwania w  pętli\obj\Debug\Przerwania w  pętli.csproj.CoreCompileInputs.cache
+D:\projects\Przerwania w  pętli\obj\Debug\Przerwania w  pętli.exe
+D:\projects\Przerwania w  pętli\obj\Debug\Przerwania w  pętli.pdb
