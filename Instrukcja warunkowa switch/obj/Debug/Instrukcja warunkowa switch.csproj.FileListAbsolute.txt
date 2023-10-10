@@ -1,0 +1,10 @@
+D:\projects\Instrukcja warunkowa switch\bin\Debug\Instrukcja warunkowa switch.exe.config
+D:\projects\Instrukcja warunkowa switch\bin\Debug\Instrukcja warunkowa switch.exe
+D:\projects\Instrukcja warunkowa switch\bin\Debug\Instrukcja warunkowa switch.pdb
+D:\projects\Instrukcja warunkowa switch\obj\Debug\Instrukcja warunkowa switch.csproj.AssemblyReference.cache
+D:\projects\Instrukcja warunkowa switch\obj\Debug\Instrukcja_warunkowa_switch.Form1.resources
+D:\projects\Instrukcja warunkowa switch\obj\Debug\Instrukcja_warunkowa_switch.Properties.Resources.resources
+D:\projects\Instrukcja warunkowa switch\obj\Debug\Instrukcja warunkowa switch.csproj.GenerateResource.cache
+D:\projects\Instrukcja warunkowa switch\obj\Debug\Instrukcja warunkowa switch.csproj.CoreCompileInputs.cache
+D:\projects\Instrukcja warunkowa switch\obj\Debug\Instrukcja warunkowa switch.exe
+D:\projects\Instrukcja warunkowa switch\obj\Debug\Instrukcja warunkowa switch.pdb
