@@ -1,0 +1,20 @@
+G:\vs2019-roboczy\zegar17\bin\Debug\zegar17.exe.config
+G:\vs2019-roboczy\zegar17\bin\Debug\zegar17.exe
+G:\vs2019-roboczy\zegar17\bin\Debug\zegar17.pdb
+G:\vs2019-roboczy\zegar17\obj\Debug\zegar17.csprojAssemblyReference.cache
+G:\vs2019-roboczy\zegar17\obj\Debug\zegar17.Form1.resources
+G:\vs2019-roboczy\zegar17\obj\Debug\zegar17.Properties.Resources.resources
+G:\vs2019-roboczy\zegar17\obj\Debug\zegar17.csproj.GenerateResource.cache
+G:\vs2019-roboczy\zegar17\obj\Debug\zegar17.csproj.CoreCompileInputs.cache
+G:\vs2019-roboczy\zegar17\obj\Debug\zegar17.exe
+G:\vs2019-roboczy\zegar17\obj\Debug\zegar17.pdb
+D:\projects\zadanie 29\bin\Debug\zegar17.exe.config
+D:\projects\zadanie 29\bin\Debug\zegar17.exe
+D:\projects\zadanie 29\bin\Debug\zegar17.pdb
+D:\projects\zadanie 29\obj\Debug\zegar17.csproj.AssemblyReference.cache
+D:\projects\zadanie 29\obj\Debug\zegar17.Form1.resources
+D:\projects\zadanie 29\obj\Debug\zegar17.Properties.Resources.resources
+D:\projects\zadanie 29\obj\Debug\zegar17.csproj.GenerateResource.cache
+D:\projects\zadanie 29\obj\Debug\zegar17.csproj.CoreCompileInputs.cache
+D:\projects\zadanie 29\obj\Debug\zegar17.exe
+D:\projects\zadanie 29\obj\Debug\zegar17.pdb

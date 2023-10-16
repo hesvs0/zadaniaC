@@ -1,0 +1,20 @@
+G:\vs2019-roboczy\dialogZapisuOdczytuPliku16\bin\Debug\dialogZapisuOdczytuPliku16.exe.config
+G:\vs2019-roboczy\dialogZapisuOdczytuPliku16\bin\Debug\dialogZapisuOdczytuPliku16.exe
+G:\vs2019-roboczy\dialogZapisuOdczytuPliku16\bin\Debug\dialogZapisuOdczytuPliku16.pdb
+G:\vs2019-roboczy\dialogZapisuOdczytuPliku16\obj\Debug\dialogZapisuOdczytuPliku16.csprojAssemblyReference.cache
+G:\vs2019-roboczy\dialogZapisuOdczytuPliku16\obj\Debug\dialogZapisuOdczytuPliku16.Form1.resources
+G:\vs2019-roboczy\dialogZapisuOdczytuPliku16\obj\Debug\dialogZapisuOdczytuPliku16.Properties.Resources.resources
+G:\vs2019-roboczy\dialogZapisuOdczytuPliku16\obj\Debug\dialogZapisuOdczytuPliku16.csproj.GenerateResource.cache
+G:\vs2019-roboczy\dialogZapisuOdczytuPliku16\obj\Debug\dialogZapisuOdczytuPliku16.csproj.CoreCompileInputs.cache
+G:\vs2019-roboczy\dialogZapisuOdczytuPliku16\obj\Debug\dialogZapisuOdczytuPliku16.exe
+G:\vs2019-roboczy\dialogZapisuOdczytuPliku16\obj\Debug\dialogZapisuOdczytuPliku16.pdb
+D:\projects\zadanie 28\bin\Debug\dialogZapisuOdczytuPliku16.exe.config
+D:\projects\zadanie 28\bin\Debug\dialogZapisuOdczytuPliku16.exe
+D:\projects\zadanie 28\bin\Debug\dialogZapisuOdczytuPliku16.pdb
+D:\projects\zadanie 28\obj\Debug\dialogZapisuOdczytuPliku16.csproj.AssemblyReference.cache
+D:\projects\zadanie 28\obj\Debug\dialogZapisuOdczytuPliku16.Form1.resources
+D:\projects\zadanie 28\obj\Debug\dialogZapisuOdczytuPliku16.Properties.Resources.resources
+D:\projects\zadanie 28\obj\Debug\dialogZapisuOdczytuPliku16.csproj.GenerateResource.cache
+D:\projects\zadanie 28\obj\Debug\dialogZapisuOdczytuPliku16.csproj.CoreCompileInputs.cache
+D:\projects\zadanie 28\obj\Debug\dialogZapisuOdczytuPliku16.exe
+D:\projects\zadanie 28\obj\Debug\dialogZapisuOdczytuPliku16.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dialogZapisuOdczytuPliku16", "dialogZapisuOdczytuPliku16.csproj", "{B62FECE7-EA5D-48BA-8696-4359A398AFDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B62FECE7-EA5D-48BA-8696-4359A398AFDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62FECE7-EA5D-48BA-8696-4359A398AFDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62FECE7-EA5D-48BA-8696-4359A398AFDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62FECE7-EA5D-48BA-8696-4359A398AFDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C7A147C-1EEA-4EEA-8E13-3C05A5F624A0}
+	EndGlobalSection
+EndGlobal
