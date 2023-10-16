@@ -1,0 +1,31 @@
+G:\vs2019-roboczy\mejMenu\bin\Debug\mejMenu.exe.config
+G:\vs2019-roboczy\mejMenu\bin\Debug\mejMenu.exe
+G:\vs2019-roboczy\mejMenu\bin\Debug\mejMenu.pdb
+G:\vs2019-roboczy\mejMenu\obj\Debug\mejMenu.csprojAssemblyReference.cache
+G:\vs2019-roboczy\mejMenu\obj\Debug\mejMenu.Form1.resources
+G:\vs2019-roboczy\mejMenu\obj\Debug\mejMenu.Properties.Resources.resources
+G:\vs2019-roboczy\mejMenu\obj\Debug\mejMenu.csproj.GenerateResource.cache
+G:\vs2019-roboczy\mejMenu\obj\Debug\mejMenu.csproj.CoreCompileInputs.cache
+G:\vs2019-roboczy\mejMenu\obj\Debug\mejMenu.exe
+G:\vs2019-roboczy\mejMenu\obj\Debug\mejMenu.pdb
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\bin\Debug\mejMenu.exe.config
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\bin\Debug\mejMenu.exe
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\bin\Debug\mejMenu.pdb
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Debug\mejMenu.csproj.AssemblyReference.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Debug\mejMenu.csproj.SuggestedBindingRedirects.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Debug\mejMenu.Form1.resources
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Debug\mejMenu.Properties.Resources.resources
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Debug\mejMenu.csproj.GenerateResource.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Debug\mejMenu.csproj.CoreCompileInputs.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Debug\mejMenu.exe
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Debug\mejMenu.pdb
+D:\projects\zadanie 23\bin\Debug\mejMenu.exe.config
+D:\projects\zadanie 23\bin\Debug\mejMenu.exe
+D:\projects\zadanie 23\bin\Debug\mejMenu.pdb
+D:\projects\zadanie 23\obj\Debug\mejMenu.csproj.AssemblyReference.cache
+D:\projects\zadanie 23\obj\Debug\mejMenu.Form1.resources
+D:\projects\zadanie 23\obj\Debug\mejMenu.Properties.Resources.resources
+D:\projects\zadanie 23\obj\Debug\mejMenu.csproj.GenerateResource.cache
+D:\projects\zadanie 23\obj\Debug\mejMenu.csproj.CoreCompileInputs.cache
+D:\projects\zadanie 23\obj\Debug\mejMenu.exe
+D:\projects\zadanie 23\obj\Debug\mejMenu.pdb

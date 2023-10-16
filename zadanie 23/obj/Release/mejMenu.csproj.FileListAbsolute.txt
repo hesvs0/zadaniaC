@@ -1,0 +1,11 @@
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\bin\Release\mejMenu.exe.config
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\bin\Release\mejMenu.exe
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\bin\Release\mejMenu.pdb
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Release\mejMenu.csproj.AssemblyReference.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Release\mejMenu.csproj.SuggestedBindingRedirects.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Release\mejMenu.Form1.resources
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Release\mejMenu.Properties.Resources.resources
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Release\mejMenu.csproj.GenerateResource.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Release\mejMenu.csproj.CoreCompileInputs.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Release\mejMenu.exe
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\12mejMenu\obj\Release\mejMenu.pdb

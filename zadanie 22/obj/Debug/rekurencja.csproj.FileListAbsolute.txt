@@ -1,0 +1,21 @@
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\rekurencja\bin\Debug\rekurencja.exe.config
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\rekurencja\bin\Debug\rekurencja.exe
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\rekurencja\bin\Debug\rekurencja.pdb
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\rekurencja\obj\Debug\rekurencja.csproj.AssemblyReference.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\rekurencja\obj\Debug\rekurencja.csproj.SuggestedBindingRedirects.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\rekurencja\obj\Debug\rekurencja.Form1.resources
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\rekurencja\obj\Debug\rekurencja.Properties.Resources.resources
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\rekurencja\obj\Debug\rekurencja.csproj.GenerateResource.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\rekurencja\obj\Debug\rekurencja.csproj.CoreCompileInputs.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\rekurencja\obj\Debug\rekurencja.exe
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\rekurencja\obj\Debug\rekurencja.pdb
+D:\projects\zadanie 22\obj\Debug\rekurencja.csproj.AssemblyReference.cache
+D:\projects\zadanie 22\obj\Debug\rekurencja.Form1.resources
+D:\projects\zadanie 22\obj\Debug\rekurencja.Properties.Resources.resources
+D:\projects\zadanie 22\obj\Debug\rekurencja.csproj.GenerateResource.cache
+D:\projects\zadanie 22\obj\Debug\rekurencja.csproj.CoreCompileInputs.cache
+D:\projects\zadanie 22\obj\Debug\rekurencja.exe
+D:\projects\zadanie 22\obj\Debug\rekurencja.pdb
+D:\projects\zadanie 22\bin\Debug\rekurencja.exe.config
+D:\projects\zadanie 22\bin\Debug\rekurencja.exe
+D:\projects\zadanie 22\bin\Debug\rekurencja.pdb
