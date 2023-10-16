@@ -1,0 +1,64 @@
+G:\vs2019-roboczy\wieleOkien\bin\Debug\wieleOkien.exe.config
+G:\vs2019-roboczy\wieleOkien\bin\Debug\wieleOkien.exe
+G:\vs2019-roboczy\wieleOkien\bin\Debug\wieleOkien.pdb
+G:\vs2019-roboczy\wieleOkien\obj\Debug\wieleOkien.csprojAssemblyReference.cache
+G:\vs2019-roboczy\wieleOkien\obj\Debug\wieleOkien.Form1.resources
+G:\vs2019-roboczy\wieleOkien\obj\Debug\wieleOkien.Properties.Resources.resources
+G:\vs2019-roboczy\wieleOkien\obj\Debug\wieleOkien.csproj.GenerateResource.cache
+G:\vs2019-roboczy\wieleOkien\obj\Debug\wieleOkien.csproj.CoreCompileInputs.cache
+G:\vs2019-roboczy\wieleOkien\obj\Debug\wieleOkien.exe
+G:\vs2019-roboczy\wieleOkien\obj\Debug\wieleOkien.pdb
+G:\vs2019-roboczy\wieleOkien\obj\Debug\wieleOkien.Form2.resources
+G:\vs2019-roboczy\wieleOkien\obj\Debug\wieleOkien.Form3.resources
+G:\vs2019-roboczy\wieleOkien\obj\Debug\wieleOkien.Form4.resources
+G:\vs2019-roboczy\wieleOkien\obj\Debug\wieleOkien.Form5.resources
+G:\vs2019-roboczy\wieleOkien\obj\Debug\wieleOkien.Form6.resources
+G:\vs2019-roboczy\wieleOkien\obj\Debug\wieleOkien.Form7.resources
+G:\vs2019-roboczy\wieleOkienZmienne14\bin\Debug\wieleOkien.exe.config
+G:\vs2019-roboczy\wieleOkienZmienne14\bin\Debug\wieleOkien.exe
+G:\vs2019-roboczy\wieleOkienZmienne14\bin\Debug\wieleOkien.pdb
+G:\vs2019-roboczy\wieleOkienZmienne14\obj\Debug\wieleOkien.csprojAssemblyReference.cache
+G:\vs2019-roboczy\wieleOkienZmienne14\obj\Debug\wieleOkien.Form1.resources
+G:\vs2019-roboczy\wieleOkienZmienne14\obj\Debug\wieleOkien.Form2.resources
+G:\vs2019-roboczy\wieleOkienZmienne14\obj\Debug\wieleOkien.Form3.resources
+G:\vs2019-roboczy\wieleOkienZmienne14\obj\Debug\wieleOkien.Form4.resources
+G:\vs2019-roboczy\wieleOkienZmienne14\obj\Debug\wieleOkien.Form5.resources
+G:\vs2019-roboczy\wieleOkienZmienne14\obj\Debug\wieleOkien.Form6.resources
+G:\vs2019-roboczy\wieleOkienZmienne14\obj\Debug\wieleOkien.Form7.resources
+G:\vs2019-roboczy\wieleOkienZmienne14\obj\Debug\wieleOkien.Properties.Resources.resources
+G:\vs2019-roboczy\wieleOkienZmienne14\obj\Debug\wieleOkien.csproj.GenerateResource.cache
+G:\vs2019-roboczy\wieleOkienZmienne14\obj\Debug\wieleOkien.csproj.CoreCompileInputs.cache
+G:\vs2019-roboczy\wieleOkienZmienne14\obj\Debug\wieleOkien.exe
+G:\vs2019-roboczy\wieleOkienZmienne14\obj\Debug\wieleOkien.pdb
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\bin\Debug\wieleOkien.exe.config
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\bin\Debug\wieleOkien.exe
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\bin\Debug\wieleOkien.pdb
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\obj\Debug\wieleOkien.csprojAssemblyReference.cache
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\obj\Debug\wieleOkien.Form1.resources
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\obj\Debug\wieleOkien.Form2.resources
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\obj\Debug\wieleOkien.Form3.resources
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\obj\Debug\wieleOkien.Form4.resources
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\obj\Debug\wieleOkien.Form5.resources
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\obj\Debug\wieleOkien.Form6.resources
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\obj\Debug\wieleOkien.Form7.resources
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\obj\Debug\wieleOkien.Properties.Resources.resources
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\obj\Debug\wieleOkien.csproj.GenerateResource.cache
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\obj\Debug\wieleOkien.csproj.CoreCompileInputs.cache
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\obj\Debug\wieleOkien.exe
+G:\vs2019-roboczy\wieleOkienIkonyMenu15\obj\Debug\wieleOkien.pdb
+D:\projects\zadanie 27\obj\Debug\wieleOkien.csproj.AssemblyReference.cache
+D:\projects\zadanie 27\obj\Debug\wieleOkien.Form1.resources
+D:\projects\zadanie 27\obj\Debug\wieleOkien.Form2.resources
+D:\projects\zadanie 27\obj\Debug\wieleOkien.Form3.resources
+D:\projects\zadanie 27\obj\Debug\wieleOkien.Form4.resources
+D:\projects\zadanie 27\obj\Debug\wieleOkien.Form5.resources
+D:\projects\zadanie 27\obj\Debug\wieleOkien.Form6.resources
+D:\projects\zadanie 27\obj\Debug\wieleOkien.Form7.resources
+D:\projects\zadanie 27\obj\Debug\wieleOkien.Properties.Resources.resources
+D:\projects\zadanie 27\obj\Debug\wieleOkien.csproj.GenerateResource.cache
+D:\projects\zadanie 27\obj\Debug\wieleOkien.csproj.CoreCompileInputs.cache
+D:\projects\zadanie 27\obj\Debug\wieleOkien.exe
+D:\projects\zadanie 27\obj\Debug\wieleOkien.pdb
+D:\projects\zadanie 27\bin\Debug\wieleOkien.exe.config
+D:\projects\zadanie 27\bin\Debug\wieleOkien.exe
+D:\projects\zadanie 27\bin\Debug\wieleOkien.pdb
