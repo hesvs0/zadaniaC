@@ -1,0 +1,21 @@
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\21b_menuMyszki\bin\Debug\21b_menuMyszki.exe.config
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\21b_menuMyszki\bin\Debug\21b_menuMyszki.exe
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\21b_menuMyszki\bin\Debug\21b_menuMyszki.pdb
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\21b_menuMyszki\obj\Debug\21b_menuMyszki.csproj.AssemblyReference.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\21b_menuMyszki\obj\Debug\21b_menuMyszki.csproj.SuggestedBindingRedirects.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\21b_menuMyszki\obj\Debug\_21b_menuMyszki.Form1.resources
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\21b_menuMyszki\obj\Debug\_21b_menuMyszki.Properties.Resources.resources
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\21b_menuMyszki\obj\Debug\21b_menuMyszki.csproj.GenerateResource.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\21b_menuMyszki\obj\Debug\21b_menuMyszki.csproj.CoreCompileInputs.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\21b_menuMyszki\obj\Debug\21b_menuMyszki.exe
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\21b_menuMyszki\obj\Debug\21b_menuMyszki.pdb
+D:\projects\zadanie 24\bin\Debug\21b_menuMyszki.exe.config
+D:\projects\zadanie 24\bin\Debug\21b_menuMyszki.exe
+D:\projects\zadanie 24\bin\Debug\21b_menuMyszki.pdb
+D:\projects\zadanie 24\obj\Debug\21b_menuMyszki.csproj.AssemblyReference.cache
+D:\projects\zadanie 24\obj\Debug\_21b_menuMyszki.Form1.resources
+D:\projects\zadanie 24\obj\Debug\_21b_menuMyszki.Properties.Resources.resources
+D:\projects\zadanie 24\obj\Debug\21b_menuMyszki.csproj.GenerateResource.cache
+D:\projects\zadanie 24\obj\Debug\21b_menuMyszki.csproj.CoreCompileInputs.cache
+D:\projects\zadanie 24\obj\Debug\21b_menuMyszki.exe
+D:\projects\zadanie 24\obj\Debug\21b_menuMyszki.pdb
