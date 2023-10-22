@@ -1,0 +1,19 @@
+G:\vs2019-roboczy\24FormatCzasuZegarCyfrowy\bin\Debug\24FormatCzasuZegarCyfrowy.exe.config
+G:\vs2019-roboczy\24FormatCzasuZegarCyfrowy\bin\Debug\24FormatCzasuZegarCyfrowy.exe
+G:\vs2019-roboczy\24FormatCzasuZegarCyfrowy\bin\Debug\24FormatCzasuZegarCyfrowy.pdb
+G:\vs2019-roboczy\24FormatCzasuZegarCyfrowy\obj\Debug\24FormatCzasuZegarCyfrowy.csprojAssemblyReference.cache
+G:\vs2019-roboczy\24FormatCzasuZegarCyfrowy\obj\Debug\_24FormatCzasuZegarCyfrowy.Form1.resources
+G:\vs2019-roboczy\24FormatCzasuZegarCyfrowy\obj\Debug\_24FormatCzasuZegarCyfrowy.Properties.Resources.resources
+G:\vs2019-roboczy\24FormatCzasuZegarCyfrowy\obj\Debug\24FormatCzasuZegarCyfrowy.csproj.GenerateResource.cache
+G:\vs2019-roboczy\24FormatCzasuZegarCyfrowy\obj\Debug\24FormatCzasuZegarCyfrowy.exe
+G:\vs2019-roboczy\24FormatCzasuZegarCyfrowy\obj\Debug\24FormatCzasuZegarCyfrowy.pdb
+D:\projects\zadanie 34\bin\Debug\24FormatCzasuZegarCyfrowy.exe.config
+D:\projects\zadanie 34\bin\Debug\24FormatCzasuZegarCyfrowy.exe
+D:\projects\zadanie 34\bin\Debug\24FormatCzasuZegarCyfrowy.pdb
+D:\projects\zadanie 34\obj\Debug\24FormatCzasuZegarCyfrowy.csproj.AssemblyReference.cache
+D:\projects\zadanie 34\obj\Debug\_24FormatCzasuZegarCyfrowy.Form1.resources
+D:\projects\zadanie 34\obj\Debug\_24FormatCzasuZegarCyfrowy.Properties.Resources.resources
+D:\projects\zadanie 34\obj\Debug\24FormatCzasuZegarCyfrowy.csproj.GenerateResource.cache
+D:\projects\zadanie 34\obj\Debug\24FormatCzasuZegarCyfrowy.csproj.CoreCompileInputs.cache
+D:\projects\zadanie 34\obj\Debug\24FormatCzasuZegarCyfrowy.exe
+D:\projects\zadanie 34\obj\Debug\24FormatCzasuZegarCyfrowy.pdb

@@ -1,0 +1,28 @@
+F:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\bin\Debug\25ZegarAnalogowy.exe.config
+F:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\bin\Debug\25ZegarAnalogowy.exe
+F:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\bin\Debug\25ZegarAnalogowy.pdb
+F:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\obj\Debug\25ZegarAnalogowy.csprojAssemblyReference.cache
+F:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\obj\Debug\_25ZegarAnalogowy.Form1.resources
+F:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\obj\Debug\_25ZegarAnalogowy.Properties.Resources.resources
+F:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\obj\Debug\25ZegarAnalogowy.csproj.GenerateResource.cache
+F:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\obj\Debug\25ZegarAnalogowy.exe
+F:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\obj\Debug\25ZegarAnalogowy.pdb
+G:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\bin\Debug\25ZegarAnalogowy.exe.config
+G:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\bin\Debug\25ZegarAnalogowy.exe
+G:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\bin\Debug\25ZegarAnalogowy.pdb
+G:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\obj\Debug\25ZegarAnalogowy.csprojAssemblyReference.cache
+G:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\obj\Debug\_25ZegarAnalogowy.Form1.resources
+G:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\obj\Debug\_25ZegarAnalogowy.Properties.Resources.resources
+G:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\obj\Debug\25ZegarAnalogowy.csproj.GenerateResource.cache
+G:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\obj\Debug\25ZegarAnalogowy.exe
+G:\vs2019-roboczy\25ZegarAnalogowy\25ZegarAnalogowy\obj\Debug\25ZegarAnalogowy.pdb
+D:\projects\zadanie 35\25ZegarAnalogowy\bin\Debug\25ZegarAnalogowy.exe.config
+D:\projects\zadanie 35\25ZegarAnalogowy\bin\Debug\25ZegarAnalogowy.exe
+D:\projects\zadanie 35\25ZegarAnalogowy\bin\Debug\25ZegarAnalogowy.pdb
+D:\projects\zadanie 35\25ZegarAnalogowy\obj\Debug\25ZegarAnalogowy.csproj.AssemblyReference.cache
+D:\projects\zadanie 35\25ZegarAnalogowy\obj\Debug\_25ZegarAnalogowy.Form1.resources
+D:\projects\zadanie 35\25ZegarAnalogowy\obj\Debug\_25ZegarAnalogowy.Properties.Resources.resources
+D:\projects\zadanie 35\25ZegarAnalogowy\obj\Debug\25ZegarAnalogowy.csproj.GenerateResource.cache
+D:\projects\zadanie 35\25ZegarAnalogowy\obj\Debug\25ZegarAnalogowy.csproj.CoreCompileInputs.cache
+D:\projects\zadanie 35\25ZegarAnalogowy\obj\Debug\25ZegarAnalogowy.exe
+D:\projects\zadanie 35\25ZegarAnalogowy\obj\Debug\25ZegarAnalogowy.pdb
