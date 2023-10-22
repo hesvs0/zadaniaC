@@ -1,0 +1,19 @@
+G:\vs2019-roboczy\28tablicaDynamiczna\bin\Debug\28tablicaDynamiczna.exe.config
+G:\vs2019-roboczy\28tablicaDynamiczna\bin\Debug\28tablicaDynamiczna.exe
+G:\vs2019-roboczy\28tablicaDynamiczna\bin\Debug\28tablicaDynamiczna.pdb
+G:\vs2019-roboczy\28tablicaDynamiczna\obj\Debug\_28tablicaDynamiczna.Form1.resources
+G:\vs2019-roboczy\28tablicaDynamiczna\obj\Debug\_28tablicaDynamiczna.Properties.Resources.resources
+G:\vs2019-roboczy\28tablicaDynamiczna\obj\Debug\28tablicaDynamiczna.csproj.GenerateResource.cache
+G:\vs2019-roboczy\28tablicaDynamiczna\obj\Debug\28tablicaDynamiczna.exe
+G:\vs2019-roboczy\28tablicaDynamiczna\obj\Debug\28tablicaDynamiczna.pdb
+G:\vs2019-roboczy\28tablicaDynamiczna\obj\Debug\28tablicaDynamiczna.csprojAssemblyReference.cache
+D:\projects\zadanie 40\bin\Debug\28tablicaDynamiczna.exe.config
+D:\projects\zadanie 40\bin\Debug\28tablicaDynamiczna.exe
+D:\projects\zadanie 40\bin\Debug\28tablicaDynamiczna.pdb
+D:\projects\zadanie 40\obj\Debug\28tablicaDynamiczna.csproj.AssemblyReference.cache
+D:\projects\zadanie 40\obj\Debug\_28tablicaDynamiczna.Form1.resources
+D:\projects\zadanie 40\obj\Debug\_28tablicaDynamiczna.Properties.Resources.resources
+D:\projects\zadanie 40\obj\Debug\28tablicaDynamiczna.csproj.GenerateResource.cache
+D:\projects\zadanie 40\obj\Debug\28tablicaDynamiczna.csproj.CoreCompileInputs.cache
+D:\projects\zadanie 40\obj\Debug\28tablicaDynamiczna.exe
+D:\projects\zadanie 40\obj\Debug\28tablicaDynamiczna.pdb

@@ -1,0 +1,19 @@
+G:\vs2019-roboczy\27tabliceWielowymiarowe\bin\Debug\27tabliceWielowymiarowe.exe.config
+G:\vs2019-roboczy\27tabliceWielowymiarowe\bin\Debug\27tabliceWielowymiarowe.exe
+G:\vs2019-roboczy\27tabliceWielowymiarowe\bin\Debug\27tabliceWielowymiarowe.pdb
+G:\vs2019-roboczy\27tabliceWielowymiarowe\obj\Debug\27tabliceWielowymiarowe.csprojAssemblyReference.cache
+G:\vs2019-roboczy\27tabliceWielowymiarowe\obj\Debug\_27tabliceWielowymiarowe.Form1.resources
+G:\vs2019-roboczy\27tabliceWielowymiarowe\obj\Debug\_27tabliceWielowymiarowe.Properties.Resources.resources
+G:\vs2019-roboczy\27tabliceWielowymiarowe\obj\Debug\27tabliceWielowymiarowe.csproj.GenerateResource.cache
+G:\vs2019-roboczy\27tabliceWielowymiarowe\obj\Debug\27tabliceWielowymiarowe.exe
+G:\vs2019-roboczy\27tabliceWielowymiarowe\obj\Debug\27tabliceWielowymiarowe.pdb
+D:\projects\zadanie 39\bin\Debug\27tabliceWielowymiarowe.exe.config
+D:\projects\zadanie 39\bin\Debug\27tabliceWielowymiarowe.exe
+D:\projects\zadanie 39\bin\Debug\27tabliceWielowymiarowe.pdb
+D:\projects\zadanie 39\obj\Debug\27tabliceWielowymiarowe.csproj.AssemblyReference.cache
+D:\projects\zadanie 39\obj\Debug\_27tabliceWielowymiarowe.Form1.resources
+D:\projects\zadanie 39\obj\Debug\_27tabliceWielowymiarowe.Properties.Resources.resources
+D:\projects\zadanie 39\obj\Debug\27tabliceWielowymiarowe.csproj.GenerateResource.cache
+D:\projects\zadanie 39\obj\Debug\27tabliceWielowymiarowe.csproj.CoreCompileInputs.cache
+D:\projects\zadanie 39\obj\Debug\27tabliceWielowymiarowe.exe
+D:\projects\zadanie 39\obj\Debug\27tabliceWielowymiarowe.pdb
