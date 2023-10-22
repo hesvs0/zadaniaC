@@ -1,0 +1,21 @@
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\wartosci_losowe_w_tablicach\bin\Debug\wartosci_losowe_w_tablicach.exe.config
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\wartosci_losowe_w_tablicach\bin\Debug\wartosci_losowe_w_tablicach.exe
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\wartosci_losowe_w_tablicach\bin\Debug\wartosci_losowe_w_tablicach.pdb
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\wartosci_losowe_w_tablicach\obj\Debug\wartosci_losowe_w_tablicach.csproj.AssemblyReference.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\wartosci_losowe_w_tablicach\obj\Debug\wartosci_losowe_w_tablicach.csproj.SuggestedBindingRedirects.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\wartosci_losowe_w_tablicach\obj\Debug\wartosci_losowe_w_tablicach.Form1.resources
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\wartosci_losowe_w_tablicach\obj\Debug\wartosci_losowe_w_tablicach.Properties.Resources.resources
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\wartosci_losowe_w_tablicach\obj\Debug\wartosci_losowe_w_tablicach.csproj.GenerateResource.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\wartosci_losowe_w_tablicach\obj\Debug\wartosci_losowe_w_tablicach.csproj.CoreCompileInputs.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\wartosci_losowe_w_tablicach\obj\Debug\wartosci_losowe_w_tablicach.exe
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\wartosci_losowe_w_tablicach\obj\Debug\wartosci_losowe_w_tablicach.pdb
+D:\projects\zadanie 37\bin\Debug\wartosci_losowe_w_tablicach.exe.config
+D:\projects\zadanie 37\bin\Debug\wartosci_losowe_w_tablicach.exe
+D:\projects\zadanie 37\bin\Debug\wartosci_losowe_w_tablicach.pdb
+D:\projects\zadanie 37\obj\Debug\wartosci_losowe_w_tablicach.csproj.AssemblyReference.cache
+D:\projects\zadanie 37\obj\Debug\wartosci_losowe_w_tablicach.Form1.resources
+D:\projects\zadanie 37\obj\Debug\wartosci_losowe_w_tablicach.Properties.Resources.resources
+D:\projects\zadanie 37\obj\Debug\wartosci_losowe_w_tablicach.csproj.GenerateResource.cache
+D:\projects\zadanie 37\obj\Debug\wartosci_losowe_w_tablicach.csproj.CoreCompileInputs.cache
+D:\projects\zadanie 37\obj\Debug\wartosci_losowe_w_tablicach.exe
+D:\projects\zadanie 37\obj\Debug\wartosci_losowe_w_tablicach.pdb

@@ -1,0 +1,19 @@
+G:\vs2019-roboczy\26tabliceStatyczne\bin\Debug\26tabliceStatyczne.exe.config
+G:\vs2019-roboczy\26tabliceStatyczne\bin\Debug\26tabliceStatyczne.exe
+G:\vs2019-roboczy\26tabliceStatyczne\bin\Debug\26tabliceStatyczne.pdb
+G:\vs2019-roboczy\26tabliceStatyczne\obj\Debug\26tabliceStatyczne.csprojAssemblyReference.cache
+G:\vs2019-roboczy\26tabliceStatyczne\obj\Debug\_26tabliceStatyczne.Form1.resources
+G:\vs2019-roboczy\26tabliceStatyczne\obj\Debug\_26tabliceStatyczne.Properties.Resources.resources
+G:\vs2019-roboczy\26tabliceStatyczne\obj\Debug\26tabliceStatyczne.csproj.GenerateResource.cache
+G:\vs2019-roboczy\26tabliceStatyczne\obj\Debug\26tabliceStatyczne.exe
+G:\vs2019-roboczy\26tabliceStatyczne\obj\Debug\26tabliceStatyczne.pdb
+D:\projects\zadanie 38\bin\Debug\26tabliceStatyczne.exe.config
+D:\projects\zadanie 38\bin\Debug\26tabliceStatyczne.exe
+D:\projects\zadanie 38\bin\Debug\26tabliceStatyczne.pdb
+D:\projects\zadanie 38\obj\Debug\26tabliceStatyczne.csproj.AssemblyReference.cache
+D:\projects\zadanie 38\obj\Debug\_26tabliceStatyczne.Form1.resources
+D:\projects\zadanie 38\obj\Debug\_26tabliceStatyczne.Properties.Resources.resources
+D:\projects\zadanie 38\obj\Debug\26tabliceStatyczne.csproj.GenerateResource.cache
+D:\projects\zadanie 38\obj\Debug\26tabliceStatyczne.csproj.CoreCompileInputs.cache
+D:\projects\zadanie 38\obj\Debug\26tabliceStatyczne.exe
+D:\projects\zadanie 38\obj\Debug\26tabliceStatyczne.pdb

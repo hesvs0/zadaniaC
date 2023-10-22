@@ -1,0 +1,11 @@
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\tablicaJednowymiarowa_cz1\bin\Release\tablicaJednowymiarowa_cz1.exe.config
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\tablicaJednowymiarowa_cz1\bin\Release\tablicaJednowymiarowa_cz1.exe
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\tablicaJednowymiarowa_cz1\bin\Release\tablicaJednowymiarowa_cz1.pdb
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\tablicaJednowymiarowa_cz1\obj\Release\tablicaJednowymiarowa_cz1.csproj.AssemblyReference.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\tablicaJednowymiarowa_cz1\obj\Release\tablicaJednowymiarowa_cz1.csproj.SuggestedBindingRedirects.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\tablicaJednowymiarowa_cz1\obj\Release\tablicaJednowymiarowa_cz1.Form1.resources
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\tablicaJednowymiarowa_cz1\obj\Release\tablicaJednowymiarowa_cz1.Properties.Resources.resources
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\tablicaJednowymiarowa_cz1\obj\Release\tablicaJednowymiarowa_cz1.csproj.GenerateResource.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\tablicaJednowymiarowa_cz1\obj\Release\tablicaJednowymiarowa_cz1.csproj.CoreCompileInputs.cache
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\tablicaJednowymiarowa_cz1\obj\Release\tablicaJednowymiarowa_cz1.exe
+E:\ZST\vs2019-roboczy-podstawowe-Windows-Forms-App\tablicaJednowymiarowa_cz1\obj\Release\tablicaJednowymiarowa_cz1.pdb
