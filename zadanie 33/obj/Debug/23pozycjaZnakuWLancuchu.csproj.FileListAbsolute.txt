@@ -1,0 +1,19 @@
+G:\vs2019-roboczy\23pozycjaZnakuWLancuchu\bin\Debug\23pozycjaZnakuWLancuchu.exe.config
+G:\vs2019-roboczy\23pozycjaZnakuWLancuchu\bin\Debug\23pozycjaZnakuWLancuchu.exe
+G:\vs2019-roboczy\23pozycjaZnakuWLancuchu\bin\Debug\23pozycjaZnakuWLancuchu.pdb
+G:\vs2019-roboczy\23pozycjaZnakuWLancuchu\obj\Debug\23pozycjaZnakuWLancuchu.csprojAssemblyReference.cache
+G:\vs2019-roboczy\23pozycjaZnakuWLancuchu\obj\Debug\_23pozycjaZnakuWLancuchu.Form1.resources
+G:\vs2019-roboczy\23pozycjaZnakuWLancuchu\obj\Debug\_23pozycjaZnakuWLancuchu.Properties.Resources.resources
+G:\vs2019-roboczy\23pozycjaZnakuWLancuchu\obj\Debug\23pozycjaZnakuWLancuchu.csproj.GenerateResource.cache
+G:\vs2019-roboczy\23pozycjaZnakuWLancuchu\obj\Debug\23pozycjaZnakuWLancuchu.exe
+G:\vs2019-roboczy\23pozycjaZnakuWLancuchu\obj\Debug\23pozycjaZnakuWLancuchu.pdb
+D:\projects\zadanie 33\obj\Debug\23pozycjaZnakuWLancuchu.csproj.AssemblyReference.cache
+D:\projects\zadanie 33\obj\Debug\_23pozycjaZnakuWLancuchu.Form1.resources
+D:\projects\zadanie 33\obj\Debug\_23pozycjaZnakuWLancuchu.Properties.Resources.resources
+D:\projects\zadanie 33\obj\Debug\23pozycjaZnakuWLancuchu.csproj.GenerateResource.cache
+D:\projects\zadanie 33\obj\Debug\23pozycjaZnakuWLancuchu.csproj.CoreCompileInputs.cache
+D:\projects\zadanie 33\obj\Debug\23pozycjaZnakuWLancuchu.exe
+D:\projects\zadanie 33\obj\Debug\23pozycjaZnakuWLancuchu.pdb
+D:\projects\zadanie 33\bin\Debug\23pozycjaZnakuWLancuchu.exe.config
+D:\projects\zadanie 33\bin\Debug\23pozycjaZnakuWLancuchu.exe
+D:\projects\zadanie 33\bin\Debug\23pozycjaZnakuWLancuchu.pdb

@@ -1,0 +1,30 @@
+G:\vs2019-roboczy\pasekPostepu\bin\Debug\pasekPostepu.exe.config
+G:\vs2019-roboczy\pasekPostepu\bin\Debug\pasekPostepu.exe
+G:\vs2019-roboczy\pasekPostepu\bin\Debug\pasekPostepu.pdb
+G:\vs2019-roboczy\pasekPostepu\obj\Debug\pasekPostepu.csprojAssemblyReference.cache
+G:\vs2019-roboczy\pasekPostepu\obj\Debug\pasekPostepu.Form1.resources
+G:\vs2019-roboczy\pasekPostepu\obj\Debug\pasekPostepu.Properties.Resources.resources
+G:\vs2019-roboczy\pasekPostepu\obj\Debug\pasekPostepu.csproj.GenerateResource.cache
+G:\vs2019-roboczy\pasekPostepu\obj\Debug\pasekPostepu.csproj.CoreCompileInputs.cache
+G:\vs2019-roboczy\pasekPostepu\obj\Debug\pasekPostepu.exe
+G:\vs2019-roboczy\pasekPostepu\obj\Debug\pasekPostepu.pdb
+G:\vs2019-roboczy\20pasekPostepu\bin\Debug\pasekPostepu.exe.config
+G:\vs2019-roboczy\20pasekPostepu\bin\Debug\pasekPostepu.exe
+G:\vs2019-roboczy\20pasekPostepu\bin\Debug\pasekPostepu.pdb
+G:\vs2019-roboczy\20pasekPostepu\obj\Debug\pasekPostepu.csprojAssemblyReference.cache
+G:\vs2019-roboczy\20pasekPostepu\obj\Debug\pasekPostepu.Form1.resources
+G:\vs2019-roboczy\20pasekPostepu\obj\Debug\pasekPostepu.Properties.Resources.resources
+G:\vs2019-roboczy\20pasekPostepu\obj\Debug\pasekPostepu.csproj.GenerateResource.cache
+G:\vs2019-roboczy\20pasekPostepu\obj\Debug\pasekPostepu.csproj.CoreCompileInputs.cache
+G:\vs2019-roboczy\20pasekPostepu\obj\Debug\pasekPostepu.exe
+G:\vs2019-roboczy\20pasekPostepu\obj\Debug\pasekPostepu.pdb
+D:\projects\zadanie 32\bin\Debug\pasekPostepu.exe.config
+D:\projects\zadanie 32\bin\Debug\pasekPostepu.exe
+D:\projects\zadanie 32\bin\Debug\pasekPostepu.pdb
+D:\projects\zadanie 32\obj\Debug\pasekPostepu.csproj.AssemblyReference.cache
+D:\projects\zadanie 32\obj\Debug\pasekPostepu.Form1.resources
+D:\projects\zadanie 32\obj\Debug\pasekPostepu.Properties.Resources.resources
+D:\projects\zadanie 32\obj\Debug\pasekPostepu.csproj.GenerateResource.cache
+D:\projects\zadanie 32\obj\Debug\pasekPostepu.csproj.CoreCompileInputs.cache
+D:\projects\zadanie 32\obj\Debug\pasekPostepu.exe
+D:\projects\zadanie 32\obj\Debug\pasekPostepu.pdb
