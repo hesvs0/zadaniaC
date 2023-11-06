@@ -8,6 +8,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Label = System.Windows.Forms.Label;
 
 namespace Algorytmy_maturalne
 {
@@ -24,6 +25,12 @@ namespace Algorytmy_maturalne
         Int32[] tab1,
          tabBufor;
         int rozmiar = 10;
+
+        int x;
+        int n = 0;
+        int a;
+        
+        List<int> wsp = new List<int>();
 
         List<Kubelek> lista = new List<Kubelek>();
         public Form1()
@@ -427,6 +434,108 @@ namespace Algorytmy_maturalne
                 if (lis[i].t.Count > 1) lis[i].t.Sort();
         }
 
+
+        float pierwiastek(float n, float dokladnosc)
+        {
+            float a = 1.0f,
+            b = n;
+            while((float)Math.Abs(a-b) >= dokladnosc)
+            {
+                a = (a + b) / 2;
+                b = n / a;
+            }
+            return (float)(a + b) / 2;
+            
+        }
+
+
+        int wieIte(int x, List<int> w)
+        {
+            int y = w[0];
+            for (int i = 1; i > w.Count; i++)
+                y = y * x + w[i];
+            return y;
+        }
+
+        int wieRek(int x, int i, List<int> w)
+        {
+            if (i > 0) { return wieRek(x, i - 1, w) * x + w[i]; }
+            return w[0];
+        }
+
+
+       void wczytajWspolczynniki(List<int> w, TextBox tb, Label lb)
+        {
+
+            if (tb.Text.Length < 1) return;
+            w.Clear();
+            lb.Text = null;
+            n = tb.Lines.Count() - 1;
+            for (int i = 0; i < tb.Lines.Count(); i++)
+            {
+                String s = tb.Lines[i].ToString();
+                if (Int32.TryParse(s, out int j))
+                {
+                    w.Add(j);
+                    string plus = "+";
+                    if (i == n) plus = " ";
+                    lb.Text += w[w.Count - 1].ToString() + "x^" + (n - i).ToString() + plus;
+                }
+            }
+        }
+
+
+
+        long potIteracja(int a, int n)
+        {
+            long w = 1;
+            while (n > 0)
+            {
+                if (n % 2 == 1) w = w * a;
+                a = a * a;
+                n = n / 2;
+            }
+            return w;
+        }
+
+        long potRekurencja(int a, int n)
+        {
+            if (n == 0) return 1;
+            if (n % 2 == 1) return a * potRekurencja(a, n - 1);
+            long w = potRekurencja(a, n / 2);
+            return w;
+        }
+
+
+        float badanaFunkcja(float x)
+        {
+            return x * x - 2;
+        }
+
+        float mejscaZerowe(float a, float b, float dokladnosc)
+        {
+            float fa, fs,
+                sr = 0;
+            fa = badanaFunkcja(a);
+            while (b - a > dokladnosc)
+            {
+                sr = (a + b) / 2;
+                fs = badanaFunkcja(sr);
+                if (fa * fs < 0)
+                {
+                    a = a - dokladnosc;
+                    b = sr;
+                }
+                else
+                {
+                    a = sr;
+                    b = b - dokladnosc;
+                    fa = fs;
+                }
+            } return sr;
+        }
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
             comboBox1.SelectedIndex = 0;
@@ -785,6 +894,104 @@ namespace Algorytmy_maturalne
         {
             if (e.KeyChar == 8) return;
             if (e.KeyChar < '0' || e.KeyChar > '9') e.Handled = true;
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            if (textBox35.Text.Length < 1 || textBox36.Text.Length < 1) return;
+
+            float n = float.Parse(textBox35.Text),
+                dokladnosc = float.Parse(textBox36.Text);
+            MessageBox.Show(pierwiastek(n, dokladnosc).ToString(), "Wynik pierwiastkowania", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void textBox35_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == '.' || e.KeyChar == ',') { e.KeyChar = ','; return; }
+            if (e.KeyChar == 8) return;
+
+            if (e.KeyChar < '0' || e.KeyChar > '9' || e.KeyChar == '-')
+                e.Handled = true;
+        }
+
+        private void textBox37_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 8 || e.KeyChar == 13 || e.KeyChar == '-') return;
+            if (e.KeyChar < '0' || e.KeyChar > '9') e.Handled = true;
+        }
+
+        private void textBox37_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyValue == 8 || e.KeyValue == 13 || e.KeyValue == '-') return;
+            wczytajWspolczynniki(wsp, textBox37, label30);
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            if (textBox38.Text.Length < 1) return;
+            x = int.Parse(textBox38.Text);
+            MessageBox.Show(
+            wieIte(x, wsp).ToString(),
+            "Wartość wielomianu",
+            MessageBoxButtons.OK,
+            MessageBoxIcon.Information
+            );
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            if (textBox38.Text.Length < 1) return;
+            x = int.Parse(textBox38.Text);
+            MessageBox.Show(
+            wieRek(x, wsp.Count - 1, wsp).ToString(),
+            "Wartość wielomianu",
+            MessageBoxButtons.OK,
+            MessageBoxIcon.Information);
+        }
+
+        private void textBox39_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 8) return;
+            if (e.KeyChar < '0' || e.KeyChar > '9') e.Handled = true;
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+            if (textBox39.Text.Length < 1 || textBox40.Text.Length < 1) return;
+            a = Int32.Parse(textBox39.Text);
+            n = Int32.Parse(textBox40.Text);
+            MessageBox.Show(a.ToString() + "^" + n.ToString() + " = " + potIteracja(a, n).ToString(),
+                "Wynik potęgowania", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            if (textBox39.Text.Length < 1 || textBox40.Text.Length < 1) return;
+            a = Int32.Parse(textBox39.Text);
+            n = Int32.Parse(textBox40.Text);
+            MessageBox.Show(a.ToString() + "^" + n.ToString() + " = " + potRekurencja(a,n),
+                "Wynik potęgowania", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void textBox41_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 8 || e.KeyChar == 13 || e.KeyChar == '-') return;
+            if (e.KeyChar < '0' || e.KeyChar > '9') e.Handled = true;
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            if (textBox41.Text.Length < 1 || textBox42.Text.Length < 1 || textBox43.Text.Length < 1) return;
+            float a = float.Parse(textBox41.Text),
+                b = float.Parse(textBox42.Text),
+                d = float.Parse(textBox43.Text),
+                sAB = (a + b) / 2;
+
+            float x1 = mejscaZerowe(a, sAB, d);
+            float x2 = mejscaZerowe(sAB, b, d);
+            int n = textBox43.Text.Length - 2;
+            MessageBox.Show("x1=" + x1.ToString("F" + n.ToString()) + ", x2=" + x2.ToString("F" + n.ToString()), "Szukane " +
+                "miejsca zerowe", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button23_Click(object sender, EventArgs e)
