@@ -1,0 +1,10 @@
+D:\projects\Algorytmy maturalne\obj\Debug\Algorytmy maturalne.csproj.AssemblyReference.cache
+D:\projects\Algorytmy maturalne\obj\Debug\Algorytmy_maturalne.Form1.resources
+D:\projects\Algorytmy maturalne\obj\Debug\Algorytmy_maturalne.Properties.Resources.resources
+D:\projects\Algorytmy maturalne\obj\Debug\Algorytmy maturalne.csproj.GenerateResource.cache
+D:\projects\Algorytmy maturalne\obj\Debug\Algorytmy maturalne.csproj.CoreCompileInputs.cache
+D:\projects\Algorytmy maturalne\bin\Debug\Algorytmy maturalne.exe.config
+D:\projects\Algorytmy maturalne\bin\Debug\Algorytmy maturalne.exe
+D:\projects\Algorytmy maturalne\bin\Debug\Algorytmy maturalne.pdb
+D:\projects\Algorytmy maturalne\obj\Debug\Algorytmy maturalne.exe
+D:\projects\Algorytmy maturalne\obj\Debug\Algorytmy maturalne.pdb
