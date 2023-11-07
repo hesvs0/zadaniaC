@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Label = System.Windows.Forms.Label;
@@ -33,6 +36,37 @@ namespace Algorytmy_maturalne
         List<int> wsp = new List<int>();
 
         List<Kubelek> lista = new List<Kubelek>();
+
+        List<String> lista1 = new List<String>();
+
+        Stack stos = new Stack();
+
+        const int _f = 1000, _t = 200;
+        String[,] alfabet = new String[60, 2]
+                  {
+                   {"A",".-"},{"B","-..."},{"C","-.-."},{"D","-.."},{"E","."},
+                   {"F","..-."},{"G","--."},{"H","...."},{"I",".."},{"J",".---"},
+                   {"K","-.-"},{"L",".-.."},{"M","--"},{"N","-."},{"O","---"},
+                   {"P",".--."},{"Q","--.-"},{"R",".-."},{"S","..."},{"T","-"},
+                   {"U","..-"},{"V","...-"},{"W",".--"},{"X","-..-"},{"Y","-.--"},
+                   {"Z","--.."},{"Ą",".-.-"},{"Ć",".-..."},{"Ę","..-.."},{"Ł",".-..-"},
+                   {"Ń","--.--"},{"Ó","---."},{"Ś","...-..."},{"Ź","--..-."},{"Ż","--..-"},
+                   {"1",".----"},{"2","..---"},{"3","...--"},{"4","....-"},{"5","....."},
+                   {"6","-...."},{"7","--..."},{"8","---.."},{"9","----."},{"0","-----"},
+                   {".",".-.-.-"},{",","--..--"},{"'",".----."},{"\"",".-..-."},{"+","..--.-"},
+                   {":","---..."},{";","-.-.-."},{"?","..--.."},{"!","-.-.--"},{"-","-....-"},
+                   {"+",".-.-."},{"/","-..-."},{"(","-.--."},{")","-.--.-"},{"=","-...-"}
+                  };
+
+
+        float f(float x)
+        {
+            
+            return Math.Abs(x * x - 36);
+            
+        }
+
+
         public Form1()
         {
             InitializeComponent();
@@ -536,6 +570,158 @@ namespace Algorytmy_maturalne
         }
 
 
+
+        float mProstokatow(float a, float b, int n)
+        {
+            float dx = (b - a) / (float)n,
+                  h = 0,
+                  sr = a + (b - a) / (2.0f * n);
+            for (int i = 0; i < n; i++)
+            {
+                h = h + f(sr);
+                sr = sr + dx;
+            }
+            return h * dx;
+        }
+
+        float mTrapez(float a, float b, int n)
+        {
+            float dx = (b - a) / (float)n,
+                  da = f(a),
+                  db,
+                  h = 0;
+            for (int i = 1; i <= n; i++)
+            {
+                db = f(a + dx * i);
+                h = h + (db + da);
+                da = db;
+            }
+            return h * 0.5f * dx;
+        }
+
+
+        bool czyPalindrom(string slowo)
+        {
+            int L = 0, P = slowo.Length - 1;
+            while (L < P)
+            {
+                if (slowo[L] != slowo[P]) return false;
+                L++;
+                P--;
+            }
+            return true;
+        }
+
+        bool czyAnagram(string slowo1, string slowo2)
+        {
+            if (slowo1.Length != slowo2.Length) return false;
+            int[] tabSum = new int[256];
+            for (int i = 0; i < 256; i++) tabSum[i] = 0;
+            for (int i = 0; i < slowo1.Length; i++) tabSum[slowo1[i]]++;
+            for (int i = 0; i < slowo2.Length; i++) tabSum[slowo2[i]]--;
+            for (int i = 0; i < 256; i++)
+                if (tabSum[i] != 0) return false;
+            return true;
+        }
+
+        void wczytajDane_i_Sortuj_A_Z(List<String> lis, TextBox tb)
+        {
+            lis.Clear();
+            for (int i = 0; i < tb.Lines.Count(); i++)
+                lis.Add(tb.Lines[i]);
+            CultureInfo polska = new CultureInfo("pl-PL");
+            StringComparer kraj = StringComparer.Create(polska, true);
+            lis.Sort(kraj);
+        }
+
+        void wczytajDane_i_Sortuj_Z_A(List<String> lis, TextBox tb)
+        {
+            lis.Clear();
+            for (int i = 0; i < tb.Lines.Count(); i++)
+                lis.Add(tb.Lines[i]);
+            CultureInfo polska = new CultureInfo("pl-PL");
+            StringComparer kraj = StringComparer.Create(polska, true);
+            lis.Sort(kraj);
+            lis.Reverse();
+        }
+
+
+        void szukajWzorca(String tZrodlo, String tWzorzec, TextBox txtWynik)
+        {
+            txtWynik.Text = "";
+            int dt = tZrodlo.Length;
+            int dw = tWzorzec.Length;
+            int licznik = 0;
+            for (int i = 0; i < dt; i++)
+            {
+                int j = 0;
+                while (j < dw && tZrodlo[i + j] == tWzorzec[j]) j++;
+                if (j == dw)
+                {
+                    licznik++;
+                    txtWynik.AppendText("wzorzec wystąpił po raz: "
+                                        + licznik.ToString()
+                                        + " pozycja znaku: "
+                                        + i.ToString()
+                                        + Environment.NewLine);
+                }
+            }
+        }
+
+
+        bool cyfra(char z)
+        {
+            return z >= '0' && z <= '9';
+        }
+
+        bool dzialanie(char z)
+        {
+
+            return z == '+' ||
+                   z == '-' ||
+                   z == '*' ||
+                   z == '/';
+        }
+
+        float oblicz(float a, float b, char z)
+        {
+            switch (z)
+            {
+                case '+': return a + b;
+                case '-': return a - b;
+                case '*': return a * b;
+                case '/': return a / b;
+            }
+            return 0;
+        }
+
+
+        float dajLiczbe(string lancuch, int id)
+        {
+            int liczba = 0;
+            while (id < lancuch.Length && cyfra(lancuch[id]) && lancuch[id] != ' ')
+            {
+                liczba = liczba * 10 + lancuch[id] - '0';
+                ++id;
+            }
+            return liczba;
+        }
+
+        void znakDzwiek(String tekst, int f, int t)
+        {
+            for (int i = 0; i < tekst.Length; i++)
+            {
+                switch (tekst[i])
+                {
+                    case '.': Console.Beep(f, t); break;
+                    case '-': Console.Beep(f, 3 * t); break;
+                }
+            }
+            Thread.Sleep(t);
+        }
+
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
             comboBox1.SelectedIndex = 0;
@@ -992,6 +1178,204 @@ namespace Algorytmy_maturalne
             int n = textBox43.Text.Length - 2;
             MessageBox.Show("x1=" + x1.ToString("F" + n.ToString()) + ", x2=" + x2.ToString("F" + n.ToString()), "Szukane " +
                 "miejsca zerowe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            if (textBox44.Text.Length < 1
+                || textBox45.Text.Length < 1
+                || textBox46.Text.Length < 1) return;
+            float a = float.Parse(textBox44.Text),
+                  b = float.Parse(textBox45.Text);
+            int n = int.Parse(textBox46.Text);
+            MessageBox.Show(
+                        mProstokatow(a, b, n).ToString(),
+                        "Wartość pola (met. prostokątów):",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information
+                        );
+        }
+
+        private void textBox44_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 8 || e.KeyChar == 13 || e.KeyChar == '-') return;
+            if (e.KeyChar < '0' || e.KeyChar > '9') e.Handled = true;
+        }
+
+        private void textBox46_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 8) return;
+            if (e.KeyChar < '0' || e.KeyChar > '9') e.Handled = true;
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            if (textBox44.Text.Length < 1
+                            || textBox45.Text.Length < 1
+                            || textBox46.Text.Length < 1) return;
+            float a = float.Parse(textBox44.Text),
+                  b = float.Parse(textBox45.Text);
+            int n = int.Parse(textBox46.Text);
+            MessageBox.Show(
+                            mTrapez(a, b, n).ToString(),
+                            "Wartośc pola (met. trapezow):",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Information
+                            );
+        }
+
+        private void button37_Click(object sender, EventArgs e)
+        {
+            if (textBox47.Text.Length < 1) return;
+            if (czyPalindrom(textBox47.Text))
+                MessageBox.Show(
+                    "Podane słowo jest palindromem",
+                    "Czy palindrom?",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information
+                    );
+            else MessageBox.Show(
+                    "Podane słowo nie jest palindromem",
+                    "Czy palindrom?",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information
+                    );
+        }
+
+        private void button38_Click(object sender, EventArgs e)
+        {
+            if (textBox47.Text.Length < 1 || textBox48.Text.Length < 1) return;
+            if (czyAnagram(textBox47.Text, textBox48.Text))
+                MessageBox.Show(
+                    "Podane słowa są anagramami",
+                    "Czy anagram?",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information
+                    );
+            else MessageBox.Show(
+                    "Podane słowo nie są anagramami",
+                    "Czy anagram?",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information
+                    );
+        }
+
+        private void button39_Click(object sender, EventArgs e)
+        {
+            wczytajDane_i_Sortuj_A_Z(lista1, textBox49);
+            textBox50.Clear();
+            //wypisz posortowane dane
+            foreach (String slowo in lista1)
+                textBox50.AppendText(slowo + Environment.NewLine);
+        }
+
+        private void button40_Click(object sender, EventArgs e)
+        {
+            wczytajDane_i_Sortuj_Z_A(lista1, textBox49);
+            textBox50.Clear();
+            //wypisz posortowane dane
+            foreach (String slowo in lista1)
+                textBox50.AppendText(slowo + Environment.NewLine);
+        }
+
+        private void button41_Click(object sender, EventArgs e)
+        {
+            szukajWzorca(textBox51.Text, textBox52.Text, textBox53);
+        }
+
+        private void button42_Click(object sender, EventArgs e)
+        {
+            string onp = textBox54.Text;
+            stos.Clear();
+            for (int i = 0; i < onp.Length; i++)
+            {
+                if (cyfra(onp[i]))
+                {
+                    float liczba = dajLiczbe(onp, i);
+                    stos.Push(liczba);
+                    i += liczba.ToString().Length;
+                }
+                else
+                    if (dzialanie(onp[i]))
+                {
+                    if (stos.Count < 2)
+                    {
+                        MessageBox.Show("To nie jest wyrażenie ONP",
+                                        "Komunikat",
+                                        MessageBoxButtons.OK,
+                                        MessageBoxIcon.Error);
+                        return;
+                    }
+                    float b = (float)stos.Peek();
+                    stos.Pop();
+                    float a = (float)stos.Peek();
+                    stos.Pop();
+                    stos.Push(oblicz(a, b, onp[i]));
+                }
+
+            }
+            MessageBox.Show(((float)stos.Peek()).ToString(),
+                            "Wynik",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Information);
+        }
+
+        private void button44_Click(object sender, EventArgs e)
+        {
+            textBox56.Clear();
+            for (int i = 0; i < textBox55.Text.Length; i++)
+            {
+                String kodMorsea = "";
+                for (int j = 0; j < 60; j++)
+                {
+                    if (textBox55.Text.Substring(i, 1).ToUpper() == alfabet[j, 0])
+                    {
+                        kodMorsea = alfabet[j, 1];
+                        //pokaz zakodowany znak
+                        textBox56.AppendText(kodMorsea + " ");
+                        //daj dzwiek
+                        znakDzwiek(kodMorsea, _f, _t);
+                        break;
+                    }
+                    else
+                        if (textBox55.Text.Substring(i, 1).ToUpper() == " ")
+                    {
+                        //wpisz znak separatora końca słowa
+                        textBox56.AppendText("|");
+                        Thread.Sleep(3 * _t);
+                        break;
+                    }
+                }
+
+            }
+        }
+
+        private void button45_Click(object sender, EventArgs e)
+        {
+            String znak = "";
+            textBox57.Clear();
+            for (int i = 0; i < textBox56.Text.Length; i++)
+            {
+                if (textBox56.Text.Substring(i, 1) != " "
+                   && textBox56.Text.Substring(i, 1) != "|")
+                    znak += textBox56.Text.Substring(i, 1);
+                else for (int j = 0; j < 60; j++)
+                        if (znak == alfabet[j, 1])
+                        {
+                            textBox57.AppendText(alfabet[j, 0]);
+                            znak = "";
+                            break;
+                        }
+                if (textBox56.Text.Substring(i, 1) == "|")
+                    textBox57.AppendText(" ");
+            }
+        }
+
+        private void button43_Click(object sender, EventArgs e)
+        {
+            Console.Beep(1000, 200);
+            Thread.Sleep(400);
+            Console.Beep(1000, 600);
         }
 
         private void button23_Click(object sender, EventArgs e)

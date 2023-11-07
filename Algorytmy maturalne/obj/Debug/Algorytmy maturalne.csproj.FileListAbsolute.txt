@@ -28,3 +28,13 @@ C:\Users\Uczeń\Desktop\Nowy folder\projekty\Algorytmy maturalne\obj\Debug\Algor
 C:\Users\Uczeń\Desktop\Nowy folder\projekty\Algorytmy maturalne\obj\Debug\Algorytmy maturalne.csproj.CoreCompileInputs.cache
 C:\Users\Uczeń\Desktop\Nowy folder\projekty\Algorytmy maturalne\obj\Debug\Algorytmy maturalne.exe
 C:\Users\Uczeń\Desktop\Nowy folder\projekty\Algorytmy maturalne\obj\Debug\Algorytmy maturalne.pdb
+C:\Users\sp1ke\Desktop\Algorytmy maturalne\bin\Debug\Algorytmy maturalne.exe.config
+C:\Users\sp1ke\Desktop\Algorytmy maturalne\bin\Debug\Algorytmy maturalne.exe
+C:\Users\sp1ke\Desktop\Algorytmy maturalne\bin\Debug\Algorytmy maturalne.pdb
+C:\Users\sp1ke\Desktop\Algorytmy maturalne\obj\Debug\Algorytmy maturalne.csproj.AssemblyReference.cache
+C:\Users\sp1ke\Desktop\Algorytmy maturalne\obj\Debug\Algorytmy_maturalne.Form1.resources
+C:\Users\sp1ke\Desktop\Algorytmy maturalne\obj\Debug\Algorytmy_maturalne.Properties.Resources.resources
+C:\Users\sp1ke\Desktop\Algorytmy maturalne\obj\Debug\Algorytmy maturalne.csproj.GenerateResource.cache
+C:\Users\sp1ke\Desktop\Algorytmy maturalne\obj\Debug\Algorytmy maturalne.csproj.CoreCompileInputs.cache
+C:\Users\sp1ke\Desktop\Algorytmy maturalne\obj\Debug\Algorytmy maturalne.exe
+C:\Users\sp1ke\Desktop\Algorytmy maturalne\obj\Debug\Algorytmy maturalne.pdb
