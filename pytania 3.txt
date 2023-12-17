@@ -1,0 +1,162 @@
+1. Co to jest zmienna i jaka jest rola zmiennej zadeklarowanej w programie?
+
+Zmienna w programowaniu jest nazwanym obszarem pamięci, który przechowuje dane i który można modyfikować w
+ trakcie działania programu. Każda zmienna ma określony typ (np. liczbowy, tekstowy, logiczny) oraz nazwę,
+ za pomocą której można się do niej odwoływać w programie.
+
+Przechowywanie danych: Zmienne przechowują dane, takie jak liczby, tekst, wartości logiczne itp. Mogą one reprezentować różne informacje potrzebne w programie.
+
+Manipulacja danymi: Zmienne umożliwiają manipulację danymi w programie. Poprzez przypisanie nowych wartości, operacje arytmetyczne, porównania, czy też inne operacje, zmienne mogą zmieniać swoją wartość.
+
+Pamięć i dostępność: Zmienne zajmują określoną ilość pamięci komputerowej i pozwalają na przechowywanie danych przez określony czas życia w trakcie działania programu.
+
+2. Na czym polega inicjalizacja zmiennej?
+
+Inicjalizacja zmiennej to proces przypisania początkowej wartości zmiennej w momencie jej deklaracji. Kiedy zmienna jest tworzona, można jej nadać początkową wartość, co jest istotne dla wielu języków programowania.
+
+
+3. Co oznacza sformułowanie: „zmienna o nazwie promien należy do typu danych float”?
+
+Sformułowanie „zmienna o nazwie promien należy do typu danych float” oznacza, że w programie istnieje zmienna o nazwie 'promien', która została zdefiniowana jako zmienna typu danych 'float'.
+
+4. Wymień i krótko opisz predefiniowane, podstawowe typy danych w języku C++.
+
+int: Typ danych int służy do przechowywania liczb całkowitych. Jest to jeden z podstawowych typów danych używanych do reprezentowania wartości numerycznych bez części dziesiętnej.
+
+float: Typ danych float służy do przechowywania liczb zmiennoprzecinkowych, reprezentujących wartości numeryczne z częścią dziesiętną. Jest to typ danych o mniejszej precyzji niż typ double.
+
+double: Typ danych double jest również używany do przechowywania liczb zmiennoprzecinkowych, ale oferuje większą precyzję niż typ float. Zazwyczaj jest stosowany, gdy potrzebna jest większa dokładność.
+
+char: Typ danych char służy do przechowywania pojedynczych znaków. Może reprezentować litery, cyfry lub symbole.
+
+bool: Typ danych bool służy do przechowywania wartości logicznych. Przyjmuje tylko dwie wartości: true (prawda) lub false (fałsz). Jest używany do reprezentowania warunków logicznych.
+
+void: Typ danych void jest używany jako typ zwracany dla funkcji, które nie zwracają żadnej wartości.
+
+unsigned int: Jest to typ danych, który przechowuje tylko wartości dodatnie lub zero (bez wartości ujemnych), zwiększając zakres liczb możliwych do przechowania.
+
+
+5. Co to jest literał? Jaka jest różnica pomiędzy literałem a stałą nazwaną? 
+Czym się różni zmienna od stałej nazwanej?
+
+Literał to wartość, która została dosłownie wpisana w kodzie źródłowym programu, na przykład liczba, tekst lub wartość logiczna.
+
+Różnica między literałem a stałą nazwaną polega na tym, że stała nazwana to nazwana wartość, która jest przypisana do określonej nazwy w programie, podczas gdy literał to wartość używana bezpośrednio w kodzie, bez przypisywania jej do nazwy.
+
+Zmienna może zmieniać swoją wartość w trakcie działania programu, podczas gdy stała nazwana ma wartość stałą, która nie ulega zmianie w trakcie działania programu.
+
+6. Co oznacza pojęcie operator, a co pojęcie operand?
+
+Operator to symbol lub znak specjalny, który wykonuje określone działanie na jednym lub więcej operandach w wyrażeniu. Operand to wartość lub obiekt, na którym działa operator, czyli dane używane w operacji wykonywanej przez operator.
+
+7. Omów działanie operatora przypisania prostego.
+
+Operator przypisania prostego w języku programowania służy do przypisywania wartości jednej zmiennej do drugiej. Jest reprezentowany symbolem "=" i działa poprzez przypisanie wartości z prawej strony operatora do zmiennej po lewej stronie operatora przypisania.
+
+8. Co to jest wyrażenie? Czym się różni wyrażenie od instrukcji?
+
+Wyrażenie to kombinacja zmiennych, stałych, operatorów i funkcji, która ma wartość. Może to być pojedyncza wartość, na przykład liczba, lub też bardziej złożone wyrażenia matematyczne.
+
+Instrukcja to linia kodu, która wykonuje jakieś działanie. Może to być pojedyncza operacja lub zestaw operacji. Wyrażenia mogą być częścią instrukcji, ale nie każda instrukcja jest wyrażeniem. Na przykład deklaracje zmiennych czy wywołanie funkcji nie zawsze zwracają wartość, więc nie są wyrażeniami, ale są instrukcjami.
+
+9. Na czym polega konwersja typu danej?
+
+Konwersja typu danych polega na zmianie jednego typu danych na inny, np. zmianie liczby całkowitej na liczbę zmiennoprzecinkową. Konwersja typu danych może być jawna (explicit), gdy jawnie określamy konwersję, lub niejawna (implicit), gdy kompilator sam wykonuje konwersję automatycznie w pewnych sytuacjach, np. z mniejszego typu na większy. Konwersja typu danych pozwala na dostosowanie danych do oczekiwanego typu w programie.
+
+10. W jakim celu definiuje się różne przestrzenie nazw?
+
+Definiowanie różnych przestrzeni nazw służy do organizacji i separacji symboli, funkcji, klas i innych elementów w programie, zapobiegając konfliktom nazw i umożliwiając lepsze zarządzanie kodem. Przestrzenie nazw pomagają uniknąć kolizji nazw między różnymi fragmentami kodu, co umożliwia tworzenie bardziej modułowego i przejrzystego oprogramowania.
+
+
+11. Co oznacza termin wejściowy strumień danych, a co strumień wyjściowy?
+
+Termin „wejściowy strumień danych” odnosi się do przepływu informacji, które są odczytywane lub pobierane przez program z zewnętrznego źródła, na przykład z klawiatury, pliku lub innego urządzenia wejściowego.
+
+Z kolei „strumień wyjściowy” to przepływ informacji, które są przesyłane lub wyprowadzane przez program do zewnętrznego medium, takiego jak ekran monitora, plik, drukarka lub inny urządzenie wyjściowe.
+
+Strumienie wejściowe i wyjściowe są kluczowymi koncepcjami w programowaniu, umożliwiającymi interakcję z użytkownikiem, odczyt i zapis danych do plików oraz przekazywanie informacji między programem a zewnętrznymi źródłami danych lub urządzeniami wyjściowymi.
+
+12. Jaką rolę w programie odgrywa funkcja specjalna main()?
+
+Funkcja specjalna main() jest punktem wejścia dla programu w języku C++ (oraz wielu innych językach programowania). To w tej funkcji program zaczyna swoje wykonywanie. Kod wewnątrz funkcji main() jest pierwszym, który jest uruchamiany po uruchomieniu programu. Program kończy swoje wykonanie, gdy wykonanie kodu w funkcji main() zostanie zakończone.
+
+13. Wyjaśnij pojęcie wyrażenie logiczne.
+
+Wyrażenie logiczne to wyrażenie lub zdanie, które może być ocenione jako prawdziwe (true) lub fałszywe (false). Składa się z zmiennych, stałych, operatorów logicznych (np. AND, OR, NOT) i zwraca wartość logiczną w zależności od warunków określonych w wyrażeniu. Na przykład: x > 5 jest wyrażeniem logicznym, które zwróci true, jeśli zmienna x jest większa od 5, lub false w przeciwnym przypadku.
+
+14. Na czym polega różnica w działaniu instrukcji warunkowej if względem instrukcji 
+if-else
+
+
+Instrukcja warunkowa if wykonuje blok kodu, jeśli warunek jest spełniony (prawdziwy). Natomiast instrukcja warunkowa if-else wykonuje blok kodu wewnątrz if, jeśli warunek jest spełniony, lub blok kodu wewnątrz else, jeśli warunek nie jest spełniony (fałszywy). Innymi słowy, if wykonuje kod, gdy warunek jest prawdziwy, a if-else wykonuje różny kod, gdy warunek jest prawdziwy lub fałszywy.
+
+15. Opisz działanie instrukcji wyboru switch. Narysuj blokowy schemat działania tej instrukcji
+
+Instrukcja wyboru switch w języku programowania pozwala na wybór jednej sekwencji instrukcji do wykonania spośród wielu możliwych opcji, na podstawie wartości zmiennej. Przełącznik switch porównuje wartość danej zmiennej z różnymi przypadkami (case) i wykonuje kod dla pierwszego pasującego przypadku lub domyślnego (default).
+↓
+ +--------+
+ | switch |
+ +--------+
+     |
+     ↓
+ +--------+
+ |  case  |
+ +--------+
+     |
+     ↓
+   [kod]
+
+16. Na czym polega zagnieżdżanie instrukcji warunkowych if-else?
+
+Zagnieżdżanie instrukcji warunkowych if-else polega na umieszczeniu jednej instrukcji warunkowej if-else wewnątrz innej instrukcji warunkowej if-else. Oznacza to, że blok kodu jednej instrukcji warunkowej (if lub else) zawiera w sobie kolejną instrukcję warunkową.
+
+17. Dlaczego instrukcje warunkowe są zaliczane do struktur sterujących?
+
+Instrukcje warunkowe są zaliczane do struktur sterujących, ponieważ umożliwiają kontrolę przepływu wykonywania programu w zależności od warunków logicznych. Pozwalają na wybór, który z bloków kodu ma być wykonany w zależności od spełnienia określonego warunku, co steruje kolejnością wykonywania instrukcji w programie.
+
+18. Z jakiej przyczyny instrukcje if, if-else oraz switch są również nazywane instrukcjami 
+wyboru?
+
+Instrukcje if, if-else i switch są nazywane instrukcjami wyboru, ponieważ pozwalają na wybór odpowiedniego bloku kodu do wykonania w zależności od spełnienia określonych warunków lub wartości zmiennej. Te instrukcje sterują przepływem programu, umożliwiając wykonanie różnych bloków kodu w zależności od warunków logicznych lub wartości zmiennej, dlatego są nazywane instrukcjami wyboru.
+
+19. Wymień różnice w budowie i działaniu pętli while względem pętli do-while.
+
+while: Sprawdza warunek przed wykonaniem bloku kodu, co może spowodować pominięcie wykonania kodu.
+do-while: Wykonuje blok kodu przynajmniej raz, nawet jeśli warunek jest fałszywy od samego początku. Następnie sprawdza warunek przed kolejnym wykonaniem.
+
+20. Wymień różnice w działaniu pętli for względem pętli while.
+
+for jest pętlą kontrolowaną licznikiem, która zazwyczaj używana jest w przypadku, gdy liczba iteracji jest znana z góry. Posiada trzy elementy: inicjalizację licznika, warunek kontynuacji oraz zwiększenie/zmniejszenie licznika.
+
+while jest bardziej ogólną pętlą, której warunek może być oceniany przed wykonaniem bloku kodu. Jest bardziej elastyczna i stosowana, gdy liczba iteracji nie jest znana z góry lub warunek końca nie jest określony na początku.
+
+Podsumowując, for jest bardziej skondensowany i używany, gdy liczba iteracji jest znana z góry, podczas gdy while jest bardziej elastyczny i używany, gdy warunek końca nie jest z góry znany.
+
+21. Wyjaśnij znaczenie terminu zmienna sterująca pętli.
+
+Zmienna sterująca pętli to zazwyczaj licznik lub zmienna używana do kontrolowania przebiegu działania pętli. Określa, ile razy pętla ma się wykonać lub kiedy ma zostać przerwana. Zmienia swoją wartość podczas kolejnych iteracji, co umożliwia kontrolę liczby powtórzeń lub warunków końcowych pętli.
+
+22. Wyjaśnij znaczenie terminu iteracja.
+
+Iteracja odnosi się do pojedynczego przejścia przez zestaw operacji w pętli. To jedno wykonanie bloku kodu w pętli. Każda iteracja oznacza jedno powtórzenie lub przejście przez pętlę, zwykle z różnymi wartościami zmiennych kontrolujących pętlę. Iteracje umożliwiają wykonanie tych samych operacji wielokrotnie, aż warunek pętli zostanie spełniony lub liczba iteracji zostanie wykonana.
+
+23. Na czym polega różnica w działaniu instrukcji break względem instrukcji continue, 
+jeśli obie są wykonywane wewnątrz pętli?
+
+break jest instrukcją używaną do natychmiastowego przerwania pętli, gdy warunek jest spełniony, a następnie program kontynuuje wykonywanie kodu poza pętlą.
+
+continue jest instrukcją, która pomija aktualną iterację pętli, przechodząc do następnej iteracji, bez wykonywania pozostałej części bloku kodu w danej iteracji. Program wraca do sprawdzenia warunku pętli.
+
+Podsumowując, break przerywa całkowicie działanie pętli, natomiast continue pomija aktualną iterację, przechodząc do kolejnej.
+
+24. Czy pętle programowe można zagnieżdżać jedna w drugiej?
+
+pętle programowe mogą być zagnieżdżane, co oznacza umieszczenie jednej pętli wewnątrz innej. Dzięki temu można wykonywać jedną pętlę wewnątrz drugiej, co umożliwia bardziej złożone struktury iteracyjne.
+
+25. Czy wartości enumeratorów w definicji typów wyliczeniowych mogą być ujemne?
+
+ wartości enumeratorów w definicji typów wyliczeniowych nie mogą być ujemne. Enumeratory są używane do definiowania zestawu stałych symbolicznych, które są liczbami całkowitymi i zwykle zaczynają się od zera, nadając kolejne liczby naturalne kolejnym stałym w typie wyliczeniowym.
+
+26. Czy wartości enumeratorów mogą być wykorzystywane w połączeniu z pętlami programowymi? Uzasadnij odpowiedź
+
+wartości enumeratorów mogą być wykorzystywane w pętlach programowych. Enumeratory są przypisywane stałym wartościom liczbowym, co pozwala na ich używanie jako liczb w pętlach, co ułatwia czytelność i użyteczność kodu. Mogą być używane do kontrolowania pętli, warunków zakończenia, czy też jako wartości kontrolujące liczby iteracji lub wybór konkretnych działań w pętli.

@@ -1,0 +1,104 @@
+1. Zaprojektuj i narysuj schemat blokowy algorytmu programu pozwalającego na
+obliczenie pola i obwodu prostokąta. Dane wejściowe do programu mają być wprowadzane 
+z klawiatury, a wyniki wyświetlane na ekranie monitora
+
+START
+  Wprowadź długość boku a
+  Wprowadź długość boku b
+
+  Oblicz pole prostokąta: pole = a * b
+  Oblicz obwód prostokąta: obwód = 2 * (a + b)
+
+  Wyświetl "Pole prostokąta wynosi: pole"
+  Wyświetl "Obwód prostokąta wynosi: obwód"
+END
+
+2. Treść jak w zadaniu 1. Do obliczenia pola i obwodu prostokąta wykorzystaj podprogramy
+
+START
+  PROCEDURA ObliczPole(a, b)
+    pole = a * b
+    ZWRÓĆ pole
+
+  PROCEDURA ObliczObwód(a, b)
+    obwód = 2 * (a + b)
+    ZWRÓĆ obwód
+
+  Wprowadź długość boku a
+  Wprowadź długość boku b
+
+  pole = ObliczPole(a, b)
+  obwód = ObliczObwód(a, b)
+
+  Wyświetl "Pole prostokąta wynosi: pole"
+  Wyświetl "Obwód prostokąta wynosi: obwód"
+END
+
+
+3.  Zapisz w formie pseudokodu algorytm programu pozwalającego na obliczenie objętości, 
+pola powierzchni bocznej oraz łącznej długości wszystkich krawędzi prostopadłościanu. 
+Dane wejściowe do programu mają być wprowadzane z klawiatury, a wyniki wyświetlane 
+na ekranie monitora
+
+START
+  Wprowadź długość prostopadłościanu (a, b, h)
+
+  Oblicz objętość prostopadłościanu: objętość = a * b * h
+  Oblicz pole powierzchni bocznej: powierzchnia_boczna = 2 * (a * h + b * h)
+  Oblicz łączną długość krawędzi: długość_krawędzi = 4 * (a + b + h)
+
+  Wyświetl "Objętość prostopadłościanu wynosi: objętość"
+  Wyświetl "Pole powierzchni bocznej wynosi: powierzchnia_boczna"
+  Wyświetl "Łączna długość krawędzi wynosi: długość_krawędzi"
+END
+
+
+4. Treść jak w zadaniu 3. Do obliczenia objętości, pola powierzchni i długości krawędzi 
+prostopadłościanu wykorzystaj podprogramy
+
+START
+  PROCEDURA ObliczObjętość(a, b, h)
+    objętość = a * b * h
+    ZWRÓĆ objętość
+
+  PROCEDURA ObliczPolePowierzchniBocznej(a, b, h)
+    powierzchnia_boczna = 2 * (a * h + b * h)
+    ZWRÓĆ powierzchnia_boczna
+
+  PROCEDURA ObliczDługośćKrawędzi(a, b, h)
+    długość_krawędzi = 4 * (a + b + h)
+    ZWRÓĆ długość_krawędzi
+
+  Wprowadź długość prostopadłościanu (a, b, h)
+
+  objętość = ObliczObjętość(a, b, h)
+  powierzchnia_boczna = ObliczPolePowierzchniBocznej(a, b, h)
+  długość_krawędzi = ObliczDługośćKrawędzi(a, b, h)
+
+  Wyświetl "Objętość prostopadłościanu wynosi: objętość"
+  Wyświetl "Pole powierzchni bocznej wynosi: powierzchnia_boczna"
+  Wyświetl "Łączna długość krawędzi wynosi: długość_krawędzi"
+END
+
+
+
+5.Zapisz w formie listy kroków algorytm programu pozwalającego na obliczenie pola 
+i obwodu koła. Dane wejściowe do programu mają być wprowadzane z klawiatury, 
+a wyniki wyświetlane na ekranie monitora.
+
+1.Wprowadź promień koła z klawiatury.
+2.Oblicz pole koła: pole = pi * promień * promień (gdzie pi to przybliżona wartość 3.14159).
+3.Oblicz obwód koła: obwód = 2 * pi * promień.
+4.Wyświetl "Pole koła wynosi: pole".
+5.Wyświetl "Obwód koła wynosi: obwód".
+
+6.Treść jak w zadaniu 5. Do obliczenia pola i obwodu koła wykorzystaj podprogramy
+
+1.Wprowadź promień koła z klawiatury.
+2.Wywołaj procedurę ObliczPoleKoła przekazując promień jako argument:
+Wewnątrz procedury: oblicz pole koła używając wzoru: pole = pi * promień * promień (gdzie pi to przybliżona wartość 3.14159).
+Zwróć obliczone pole koła.
+3.Wywołaj procedurę ObliczObwódKoła przekazując promień jako argument:
+Wewnątrz procedury: oblicz obwód koła używając wzoru: obwód = 2 * pi * promień.
+Zwróć obliczony obwód koła.
+4.Wyświetl otrzymane wartości pola i obwodu koła na ekranie.

@@ -1,0 +1,67 @@
+1. Co oznacza skrót IDE? Opisz najważniejsze funkcje IDE na przykładzie Code::Blocks, 
+CodeLite lub NetBeans.
+
+Skrót IDE oznacza "Integrated Development Environment" (Zintegrowane Środowisko Programistyczne).
+To kompleksowe narzędzie, które integruje różne funkcje potrzebne do pisania,
+testowania i debugowania aplikacji w jednym miejscu.
+
+1.Edytor kodu: Zapewnia podstawową funkcjonalność edycji kodu z podświetlaniem składni, autouzupełnianiem, 
+nawigacją po plikach i innymi udogodnieniami.
+2.Kompilator i Debuger: Zintegrowane narzędzia umożliwiające kompilację kodu oraz debugowanie aplikacji.
+3.Menadżer projektów: Umożliwia zarządzanie projektami, tworzenie nowych projektów, dodawanie plików, 
+grupowanie ich i kontrolę nad nimi.
+4.Pluginy i rozszerzenia: Code::Blocks obsługuje pluginy, co umożliwia dodawanie nowych funkcji i rozszerzenie 
+możliwości programu.
+5.Wsparcie dla różnych języków programowania: Obsługuje wiele języków programowania, w tym C, C++, Fortran, etc.
+6.Profiling i analiza wydajności: Narzędzia do analizy wydajności kodu, pomagające identyfikować miejsca, które mogą 
+być zoptymalizowane.
+
+2. Wymień nazwy kilku niekomercyjnych, darmowych kompilatorów języka C++.
+
+1.Code::Blocks z MinGW: Code::Blocks jest środowiskiem programistycznym, które zawiera zestaw narzędzi 
+do tworzenia aplikacji C++, a w pakiecie z MinGW dostarcza kompilatora.
+2.Dev-C++: Jest to środowisko programistyczne dla języka C++ na platformę Windows, zawierające kompilator MinGW.
+
+3. W jakim celu przeprowadza się debugowanie programu?
+
+Identyfikacja błędów: Debugowanie pomaga zlokalizować błędy w kodzie, takie jak błędy logiczne, 
+błędy składniowe lub semantyczne, które mogą powodować nieprawidłowe działanie programu.
+
+Poprawa wydajności: Czasami błędy w kodzie mogą powodować spowolnienie działania aplikacji. 
+Debugowanie pomaga w identyfikacji fragmentów kodu, które mogą być optymalizowane w celu poprawy wydajności programu.
+
+Zapewnienie poprawności działania: Debugowanie pozwala na sprawdzenie, czy program zachowuje się 
+zgodnie z oczekiwaniami i spełnia określone wymagania.
+
+Zwiększenie niezawodności: Poprawienie błędów w programie może znacząco zwiększyć niezawodność aplikacji, 
+eliminując sytuacje awaryjne i zapobiegając awariom.
+
+4. Jakimi cechami powinien się charakteryzować profesjonalny edytor kodu?
+
+Podświetlanie składni: Wyraźne podkreślenie składniowych elementów języka programowania, co ułatwia czytanie i zrozumienie kodu.
+
+Autouzupełnianie kodu: Funkcja automatycznego uzupełniania fragmentów kodu, nazw funkcji,
+ zmiennych, co przyspiesza pisanie kodu i zmniejsza ryzyko literówek.
+
+Wsparcie dla wielu języków programowania: Profesjonalny edytor kodu powinien obsługiwać różne języki
+ programowania, co umożliwia programistom pracę w wielu środowiskach.
+
+Integracja z narzędziami programistycznymi: Dobre edytory umożliwiają integrację z kompilatorami,
+ debugerami, systemami kontroli wersji i innymi narzędziami wspomagającymi proces tworzenia oprogramowania.
+
+5. Co oznacza, że dany program należy do oprogramowania otwartego (ang. open source)?
+
+Oprogramowanie otwarte (open source) odnosi się do programów komputerowych, których kod źródłowy 
+jest udostępniony publicznie, a użytkownicy mają prawo do oglądania, modyfikowania, rozpowszechniania 
+i czasem również do dalszego rozwoju tego kodu.
+
+6. Które IDE wspomagają nieodpłatnie programowanie aplikacji w C++, a także dodatkowo 
+w językach HTML wraz z CSS oraz JavaScript i PHP?
+
+Visual Studio Code (VS Code): To bardzo wszechstronne i elastyczne środowisko programistyczne, 
+które oferuje obsługę C++ poprzez różne wtyczki oraz jednocześnie dostarcza doskonałe narzędzia 
+dla języków webowych, takich jak HTML, CSS, JavaScript i PHP.
+
+Code::Blocks: Choć początkowo stworzony z myślą o obsłudze głównie języka C++, to jednak z pewnymi 
+wtyczkami i rozszerzeniami można go dostosować do pracy z językami webowymi.
+

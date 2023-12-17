@@ -1,0 +1,619 @@
+1. Napisz program umożliwiający obliczenie pola i obwodu trójkąta równoramiennego. 
+Dane wejściowe — długość podstawy i wysokość — należy zainicjować w programie, 
+a wyniki obliczeń zaprezentować w konsoli na ekranie monitora.
+
+#include <iostream>
+#include <cmath>
+
+int main() {
+    double dlugosc_podstawy = 6;
+    double wysokosc = 8;
+
+    double pole = 0.5 * dlugosc_podstawy * wysokosc;
+
+    double bok = sqrt(pow(wysokosc, 2) + pow(dlugosc_podstawy / 2, 2));
+
+    double obwod = 2 * dlugosc_podstawy + 2 * bok;
+
+    std::cout << "Pole trójkąta równoramiennego wynosi: " << pole << std::endl;
+    std::cout << "Obwód trójkąta równoramiennego wynosi: " << obwod << std::endl;
+
+    return 0;
+}
+
+
+2. Napisz program zawierający definicję stałej nazwanej PI. Wykorzystaj tę stałą do
+wyznaczenia objętości i pola powierzchni kuli. Dane wejściowe, tj. promień kuli, mają być 
+wprowadzane z klawiatury, a wyniki wyświetlane na ekranie monitora.
+
+#include <iostream>
+
+const double PI = 3.14159; // Definicja stałej PI
+
+int main() {
+    double promien;
+
+    std::cout << "Podaj promien kuli: ";
+    std::cin >> promien;
+
+    double objetosc = (4.0 / 3.0) * PI * (promien * promien * promien);
+
+    double pole_powierzchni = 4 * PI * (promien * promien);
+
+    std::cout << "Objetosc kuli wynosi: " << objetosc << std::endl;
+    std::cout << "Pole powierzchni kuli wynosi: " << pole_powierzchni << std::endl;
+
+    return 0;
+}
+
+
+3. Napisz program pozwalający na przeliczenie prędkości zadanej w kilometrach na godzinę 
+na prędkość wyrażoną w węzłach. Dane wejściowe mają być wprowadzane z klawiatury, 
+a wynik wyświetlany na ekranie monitora
+
+#include <iostream>
+
+int main() {
+    double predkosc_kmh;
+
+    std::cout << "Podaj predkosc w kilometrach na godzine: ";
+    std::cin >> predkosc_kmh;
+
+    double predkosc_wezly = predkosc_kmh / 1.852;
+
+    std::cout << "Predkosc w wezlach wynosi: " << predkosc_wezly << std::endl;
+
+    return 0;
+}
+
+
+4. 
+#include <iostream>
+
+int main() {
+    double a, b, c, d;
+
+    std::cout << "Podaj wartosci parametrow a, b, c, d oddzielone spacja: ";
+    std::cin >> a >> b >> c >> d;
+
+    double w = (a + b) / (c + d) + (a / d) + (b / d);
+
+    std::cout << "Wynik wyrazenia wynosi: " << w << std::endl;
+
+    return 0;
+}
+
+5. Napisz program pozwalający na wyznaczenie miejsca zerowego funkcji danej wzorem: 
+y = f(x) = 2 ∙ x−4. Wynik wyświetl na ekranie monitora.
+
+#include <iostream>
+
+int main() {
+    double y = 0;
+    double miejsce_zerowe;
+
+    miejsce_zerowe = 4.0 / 2.0;
+
+    std::cout << "Miejsce zerowe funkcji y = 2x - 4 wynosi: " << miejsce_zerowe << std::endl;
+
+    return 0;
+}
+
+6. Napisz program pozwalający na obliczenie średniej arytmetycznej z trzech ocen semestralnych uzyskanych z następujących przedmiotów: język polski, język angielski, 
+matematyka. Dane wejściowe mają być wprowadzane z klawiatury, a wynik niech będzie 
+wyświetlany w konsoli na ekranie monitora.
+
+#include <iostream>
+
+int main() {
+    double ocena_polski, ocena_angielski, ocena_matematyka;
+
+    std::cout << "Podaj oceny z jezyka polskiego, jezyka angielskiego i matematyki oddzielone spacja: ";
+    std::cin >> ocena_polski >> ocena_angielski >> ocena_matematyka;
+
+    double srednia = (ocena_polski + ocena_angielski + ocena_matematyka) / 3.0;
+
+    std::cout << "Srednia arytmetyczna z ocen wynosi: " << srednia << std::endl;
+
+    return 0;
+}
+
+7. Napisz program umożliwiający obliczenie pola i obwodu koła dla promienia o długości wprowadzonej z klawiatury. Zabezpiecz program przed wykonywaniem obliczeń 
+dla promienia o długości niedodatniej. W razie wprowadzenia z klawiatury błędnej 
+(np. ujemnej) wartości promienia na ekranie powinien zostać wyświetlony odpowiedni 
+komunikat.
+
+#include <iostream>
+#include <cmath>
+
+int main() {
+    double promien;
+
+    std::cout << "Podaj dlugosc promienia: ";
+    std::cin >> promien;
+
+    if (promien <= 0) {
+        std::cout << "Blad: Promien powinien byc dodatni." << std::endl;
+        return 1; 
+    }
+
+    double pole = M_PI * pow(promien, 2);
+    double obwod = 2 * M_PI * promien;
+
+    std::cout << "Pole kola wynosi: " << pole << std::endl;
+    std::cout << "Obwod kola wynosi: " << obwod << std::endl;
+
+    return 0;
+}
+
+8. Napisz program umożliwiający obliczenie pola i obwodu prostokąta dla boków o długościach wprowadzonych z klawiatury. Zabezpiecz program przed wykonywaniem 
+obliczeń dla boków o długości niedodatniej. Zaprojektuj i zastosuj system komunikatów 
+dla użytkownika informujący go o błędnych (niepoprawnych) wartościach danych 
+wejściowych.
+
+#include <iostream>
+
+int main() {
+    double bok_a, bok_b;
+
+    std::cout << "Podaj dlugosc boku a: ";
+    std::cin >> bok_a;
+
+    std::cout << "Podaj dlugosc boku b: ";
+    std::cin >> bok_b;
+
+    if (bok_a <= 0 || bok_b <= 0) {
+        std::cout << "Blad: Dlugosci bokow powinny byc dodatnie." << std::endl;
+        return 1;
+    }
+
+    double pole = bok_a * bok_b;
+    double obwod = 2 * (bok_a + bok_b);
+
+    std::cout << "Pole prostokata wynosi: " << pole << std::endl;
+    std::cout << "Obwod prostokata wynosi: " << obwod << std::endl;
+
+    return 0;
+}
+
+9. 
+
+Wariant z użyciem instrukcji if:
+
+#include <iostream>
+
+int main() {
+    double a, b, c;
+
+    std::cout << "Podaj wartosci a, b, c oddzielone spacja: ";
+    std::cin >> a >> b >> c;
+
+    if (b == 0 || (a + b) == 0 || (a + b + c) == 0) {
+        std::cout << "Blad: Proba dzielenia przez zero." << std::endl;
+        return 1;
+    }
+
+    double wynik = (a / b) + (c / (a + b)) - ((a + c) / (a + b + c));
+
+    std::cout << "Wynik wyrazenia wynosi: " << wynik << std::endl;
+
+    return 0;
+}
+
+Wariant z użyciem instrukcji if-else:
+
+#include <iostream>
+
+int main() {
+    double a, b, c;
+
+    std::cout << "Podaj wartosci a, b, c oddzielone spacja: ";
+    std::cin >> a >> b >> c;
+
+    if (b == 0 || (a + b) == 0 || (a + b + c) == 0) {
+        std::cout << "Blad: Proba dzielenia przez zero." << std::endl;
+        return 1;
+    } else {
+        double wynik = (a / b) + (c / (a + b)) - ((a + c) / (a + b + c));
+        std::cout << "Wynik wyrazenia wynosi: " << wynik << std::endl;
+    }
+
+    return 0;
+}
+
+10. 
+#include <iostream>
+#include <cmath>
+
+int main() {
+    double a, b, c, d;
+
+    std::cout << "Podaj wartosci a, b, c, d oddzielone spacja: ";
+    std::cin >> a >> b >> c >> d;
+
+    if (a < 0 || b < 0 || c < 0 || d < 0) {
+        std::cout << "Blad: Wprowadzono ujemna wartosc." << std::endl;
+        return 1;
+    }
+
+    double s = pow(a * b * c * d, 0.25);
+
+    std::cout << "Srednia geometryczna wynosi: " << s << std::endl;
+
+    return 0;
+}
+
+13. Napisz program umożliwiający obliczenie sumy kolejnych liczb całkowitych, począwszy 
+od zadanej liczby początkowej L1, a skończywszy na zadanej liczbie końcowej L2. Liczby 
+L1 i L2 mają być wprowadzane z klawiatury, a wyniki wyświetlane na ekranie monitora 
+w konsoli. W obliczeniach uwzględnij osobno liczby parzyste i liczby nieparzyste. Wykonaj program w trzech wariantach odpowiadających różnym rodzajom pętli (while, 
+do-while i for).
+
+Wariant z użyciem pętli while:
+#include <iostream>
+
+int main() {
+    int L1, L2;
+    int suma_parzystych = 0, suma_nieparzystych = 0;
+
+    std::cout << "Podaj liczby L1 i L2 oddzielone spacja: ";
+    std::cin >> L1 >> L2;
+
+    int i = L1;
+    while (i <= L2) {
+        if (i % 2 == 0) {
+            suma_parzystych += i;
+        } else {
+            suma_nieparzystych += i;
+        }
+        i++;
+    }
+
+    std::cout << "Suma liczb parzystych wynosi: " << suma_parzystych << std::endl;
+    std::cout << "Suma liczb nieparzystych wynosi: " << suma_nieparzystych << std::endl;
+
+    return 0;
+}
+
+Wariant z użyciem pętli do-while:
+
+#include <iostream>
+
+int main() {
+    int L1, L2;
+    int suma_parzystych = 0, suma_nieparzystych = 0;
+
+    std::cout << "Podaj liczby L1 i L2 oddzielone spacja: ";
+    std::cin >> L1 >> L2;
+
+    int i = L1;
+    do {
+        if (i % 2 == 0) {
+            suma_parzystych += i;
+        } else {
+            suma_nieparzystych += i;
+        }
+        i++;
+    } while (i <= L2);
+
+    std::cout << "Suma liczb parzystych wynosi: " << suma_parzystych << std::endl;
+    std::cout << "Suma liczb nieparzystych wynosi: " << suma_nieparzystych << std::endl;
+
+    return 0;
+}
+
+Wariant z użyciem pętli for:
+
+#include <iostream>
+
+int main() {
+    int L1, L2;
+    int suma_parzystych = 0, suma_nieparzystych = 0;
+
+    std::cout << "Podaj liczby L1 i L2 oddzielone spacja: ";
+    std::cin >> L1 >> L2;
+
+    for (int i = L1; i <= L2; ++i) {
+        if (i % 2 == 0) {
+            suma_parzystych += i;
+        } else {
+            suma_nieparzystych += i;
+        }
+    }
+
+    std::cout << "Suma liczb parzystych wynosi: " << suma_parzystych << std::endl;
+    std::cout << "Suma liczb nieparzystych wynosi: " << suma_nieparzystych << std::endl;
+
+    return 0;
+}
+
+
+14. Napisz program umożliwiający wyznaczenie wartości największej (maksimum) i najmniejszej (minimum) z n zadanych liczb rzeczywistych przy założeniu, że wartość n
+nie przekracza 10. Dane wejściowe (ilość liczb n oraz wartości n liczb rzeczywistych) 
+należy wprowadzić z klawiatury. Wyniki powinny być wyświetlane w konsoli na ekranie 
+monitora. Wykonaj program w trzech wariantach odpowiadających różnym rodzajom 
+pętli: while, do-while oraz for.
+
+#include <iostream>
+
+int main() {
+    int n;
+    double liczba, min = DBL_MAX, max = -DBL_MAX;
+
+    std::cout << "Podaj ilosc liczb (n): ";
+    std::cin >> n;
+
+    int i = 1;
+    while (i <= n) {
+        std::cout << "Podaj liczbe " << i << ": ";
+        std::cin >> liczba;
+
+        if (liczba < min) {
+            min = liczba;
+        }
+        if (liczba > max) {
+            max = liczba;
+        }
+
+        i++;
+    }
+
+    std::cout << "Najmniejsza liczba to: " << min << std::endl;
+    std::cout << "Najwieksza liczba to: " << max << std::endl;
+
+    return 0;
+}
+
+15. Napisz program umożliwiający wyznaczenie sumy oraz wartości największej (maksimum) i najmniejszej (minimum) z 10 liczb całkowitych wygenerowanych losowo. Niech 
+wyniki będą wyświetlane w konsoli na ekranie monitora. Wykonaj program w trzech 
+wariantach odpowiadających różnym rodzajom pętli: while, do-while i for.
+
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include <climits>
+
+int main() {
+    srand(time(nullptr));
+    int liczba, suma = 0, min = INT_MAX, max = INT_MIN;
+    int i = 0;
+
+    while (i < 10) {
+        liczba = rand() % 100;
+        std::cout << liczba << " ";
+
+        suma += liczba;
+
+        if (liczba < min) {
+            min = liczba;
+        }
+        if (liczba > max) {
+            max = liczba;
+        }
+
+        i++;
+    }
+
+    std::cout << "\nSuma liczb: " << suma << std::endl;
+    std::cout << "Najmniejsza liczba: " << min << std::endl;
+    std::cout << "Najwieksza liczba: " << max << std::endl;
+
+    return 0;
+}
+
+16. Napisz program pozwalający na sprawdzenie, które z liczb całkowitych z przedziału 
+<1, 100> są podzielne przez liczbę 9. Wypisz te liczby na ekranie monitora. Wykonaj program w trzech wariantach odpowiadających różnym rodzajom pętli: while, 
+do-while i for.
+
+#include <iostream>
+
+int main() {
+    int i = 1;
+
+    std::cout << "Liczby podzielne przez 9 z przedzialu od 1 do 100: ";
+    while (i <= 100) {
+        if (i % 9 == 0) {
+            std::cout << i << " ";
+        }
+        i++;
+    }
+
+    return 0;
+}
+
+
+17. Napisz program pozwalający obliczyć pole i obwód prostokąta. Długości boków prostokąta mają być wprowadzane z klawiatury. Uwzględnij możliwość wielokrotnego wprowadzenia danych wejściowych (długości boków prostokąta) w razie podania błędnych 
+wartości. Załóż, że maksymalna liczba prób wprowadzenia każdej z danych wejściowych 
+wynosi 10. Wyniki powinny być wyświetlane na ekranie monitora.
+
+#include <iostream>
+
+int main() {
+    double dlugosc_a, dlugosc_b;
+    double pole, obwod;
+    const int maksymalna_liczba_prob = 10;
+    int proba_a = 0, proba_b = 0;
+
+    while (proba_a < maksymalna_liczba_prob) {
+        std::cout << "Podaj dlugosc boku a prostokata: ";
+        std::cin >> dlugosc_a;
+
+        if (dlugosc_a > 0) {
+            break;
+        } else {
+            std::cout << "Bledna wartosc. Dlugosc boku a musi byc wieksza od zera." << std::endl;
+            proba_a++;
+        }
+    }
+
+    while (proba_b < maksymalna_liczba_prob) {
+        std::cout << "Podaj dlugosc boku b prostokata: ";
+        std::cin >> dlugosc_b;
+
+        if (dlugosc_b > 0) {
+            break;
+        } else {
+            std::cout << "Bledna wartosc. Dlugosc boku b musi byc wieksza od zera." << std::endl;
+            proba_b++;
+        }
+    }
+
+    if (proba_a == maksymalna_liczba_prob || proba_b == maksymalna_liczba_prob) {
+        std::cout << "Przekroczono maksymalna liczbe prob wprowadzenia danych." << std::endl;
+    } else {
+        pole = dlugosc_a * dlugosc_b;
+        obwod = 2 * (dlugosc_a + dlugosc_b);
+
+        std::cout << "Pole prostokata wynosi: " << pole << std::endl;
+        std::cout << "Obwod prostokata wynosi: " << obwod << std::endl;
+    }
+
+    return 0;
+}
+
+
+18. Napisz program pozwalający wyznaczyć średnią arytmetyczną i średnią geometryczną 
+z 5 liczb rzeczywistych dodatnich o wartościach wprowadzonych z klawiatury. Uwzględnij możliwość wielokrotnego
+wprowadzenia danych wejściowych w razie podania błędnych wartości. Wyniki powinny być wyświetlane na ekranie monitora.
+
+#include <iostream>
+#include <cmath>
+
+int main() {
+    const int iloscLiczb = 5;
+    double liczba, suma = 0.0, iloczyn = 1.0;
+    int liczbaProb = 0;
+
+    std::cout << "Podaj " << iloscLiczb << " liczb rzeczywistych dodatnich:\n";
+
+    for (int i = 0; i < iloscLiczb; ++i) {
+        std::cout << "Liczba " << i + 1 << ": ";
+        std::cin >> liczba;
+
+        if (liczba > 0) {
+            suma += liczba;
+            iloczyn *= liczba;
+        } else {
+            std::cout << "Podano bledna wartosc. Wprowadz liczbe dodatnia.\n";
+            --i;
+            ++liczbaProb;
+
+            if (liczbaProb >= 5) {
+                std::cout << "Przekroczono maksymalna liczbe prob wprowadzenia danych.\n";
+                return 1; 
+            }
+        }
+    }
+
+    double sredniaArytmetyczna = suma / iloscLiczb;
+    double sredniaGeometryczna = pow(iloczyn, 1.0 / iloscLiczb);
+
+    std::cout << "Srednia arytmetyczna wynosi: " << sredniaArytmetyczna << std::endl;
+    std::cout << "Srednia geometryczna wynosi: " << sredniaGeometryczna << std::endl;
+
+    return 0;
+}
+
+19. Napisz program umożliwiający obliczenie średniej arytmetycznej z ocen semestralnych ucznia uzyskanych z następujących przedmiotów: język polski, język angielski, 
+matematyka, informatyka. Wykorzystaj zdefiniowany samodzielnie typ wyliczeniowy 
+pozwalający przedstawić średnią ocenę w postaci słownej. Dane wejściowe mają być 
+wprowadzane z klawiatury, a wynik powinien być wyświetlany na ekranie monitora.
+
+#include <iostream>
+
+enum class SredniaOcena { niedostateczna = 1, dostateczna, dostateczna_plus, dobra, dobra_plus, bardzo_dobra, celujaca };
+
+int main() {
+    double polski, angielski, matematyka, informatyka;
+
+    std::cout << "Podaj ocene z jezyka polskiego: ";
+    std::cin >> polski;
+
+    std::cout << "Podaj ocene z jezyka angielskiego: ";
+    std::cin >> angielski;
+
+    std::cout << "Podaj ocene z matematyki: ";
+    std::cin >> matematyka;
+
+    std::cout << "Podaj ocene z informatyki: ";
+    std::cin >> informatyka;
+
+    double srednia = (polski + angielski + matematyka + informatyka) / 4.0;
+
+    std::cout << "Srednia ocen: " << srednia << std::endl;
+
+    if (srednia >= 1 && srednia < 1.5) {
+        std::cout << "Srednia ocena: " << static_cast<int>(SredniaOcena::niedostateczna) << " - niedostateczna\n";
+    } else if (srednia >= 1.5 && srednia < 2.5) {
+        std::cout << "Srednia ocena: " << static_cast<int>(SredniaOcena::dostateczna) << " - dostateczna\n";
+    } else if (srednia >= 2.5 && srednia < 3.5) {
+        std::cout << "Srednia ocena: " << static_cast<int>(SredniaOcena::dostateczna_plus) << " - dostateczna plus\n";
+    } else if (srednia >= 3.5 && srednia < 4.5) {
+        std::cout << "Srednia ocena: " << static_cast<int>(SredniaOcena::dobra) << " - dobra\n";
+    } else if (srednia >= 4.5 && srednia < 5.5) {
+        std::cout << "Srednia ocena: " << static_cast<int>(SredniaOcena::dobra_plus) << " - dobra plus\n";
+    } else if (srednia >= 5.5 && srednia < 6.5) {
+        std::cout << "Srednia ocena: " << static_cast<int>(SredniaOcena::bardzo_dobra) << " - bardzo dobra\n";
+    } else if (srednia >= 6.5) {
+        std::cout << "Srednia ocena: " << static_cast<int>(SredniaOcena::celujaca) << " - celujaca\n";
+    }
+
+    return 0;
+}
+
+20. Napisz program umożliwiający określenie rodzaju szkoły na podstawie znajomości 
+długości okresu kształcenia. Dane wejściowe (długość okresu kształcenia) mają być 
+wprowadzane z klawiatury, a wynik (rodzaj szkoły) niech będzie wyświetlany na ekranie monitora. Wykorzystaj zdefiniowany samodzielnie typ wyliczeniowy pozwalający 
+skojarzyć rodzaj szkoły z długością okresu kształcenia.
+
+#include <iostream>
+
+enum class RodzajSzkoly {
+    Przedszkole,
+    SzkolaPodstawowa,
+    Gimnazjum,
+    Liceum,
+    Studia
+};
+
+int main() {
+    int dlugoscOkresu;
+
+    std::cout << "Podaj dlugosc okresu kształcenia (w latach): ";
+    std::cin >> dlugoscOkresu;
+
+    RodzajSzkoly rodzaj;
+
+    if (dlugoscOkresu < 3) {
+        rodzaj = RodzajSzkoly::Przedszkole;
+    } else if (dlugoscOkresu >= 3 && dlugoscOkresu <= 6) {
+        rodzaj = RodzajSzkoly::SzkolaPodstawowa;
+    } else if (dlugoscOkresu > 6 && dlugoscOkresu <= 9) {
+        rodzaj = RodzajSzkoly::Gimnazjum;
+    } else if (dlugoscOkresu > 9 && dlugoscOkresu <= 12) {
+        rodzaj = RodzajSzkoly::Liceum;
+    } else {
+        rodzaj = RodzajSzkoly::Studia;
+    }
+
+    switch (rodzaj) {
+        case RodzajSzkoly::Przedszkole:
+            std::cout << "Okres kształcenia odpowiada przedszkolu.\n";
+            break;
+        case RodzajSzkoly::SzkolaPodstawowa:
+            std::cout << "Okres kształcenia odpowiada szkole podstawowej.\n";
+            break;
+        case RodzajSzkoly::Gimnazjum:
+            std::cout << "Okres kształcenia odpowiada gimnazjum.\n";
+            break;
+        case RodzajSzkoly::Liceum:
+            std::cout << "Okres kształcenia odpowiada liceum.\n";
+            break;
+        case RodzajSzkoly::Studia:
+            std::cout << "Okres kształcenia odpowiada studiom.\n";
+            break;
+    }
+
+    return 0;
+}
+

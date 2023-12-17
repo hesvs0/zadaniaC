@@ -1,0 +1,21 @@
+pytanie 6
+
+
+
+1. Zrozumienie problemu:
+Przed rozpoczęciem pisania pseudokodu należy dokładnie zrozumieć problem, który ma być rozwiązany. To pozwala na lepsze sformułowanie kroków algorytmu.
+
+2. Prostota i jasność:
+Pseudokod powinien być czytelny dla innych osób. Używaj prostego języka i klarownych instrukcji.
+
+3. Użyj podstawowych struktur kontrolnych:
+Pseudokod powinien zawierać podstawowe struktury jak pętle (for, while, repeat-until), warunki (if, else, switch) oraz instrukcje wyboru.
+
+4. Zrozumiałe nazwy zmiennych i operacji:
+Nazwy używane w pseudokodzie powinny jasno opisywać swoje przeznaczenie.
+
+5. Unikaj konkretnych instrukcji programistycznych:
+Pseudokod skupia się na ogólnym sposobie rozwiązania problemu, unikając szczegółów związanych z konkretnym językiem programowania.
+
+6. Testowanie i poprawianie:
+Przed uznaniem pseudokodu za gotowy, warto przetestować go na różnych przypadkach, aby upewnić się, że działa poprawnie.
