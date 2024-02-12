@@ -1,0 +1,173 @@
+1. Napisz program pozwalający wyznaczyć wartość największą (maksimum) i najmniejszą 
+(minimum) z elementów tablicy rzeczywistej. Liczba elementów tablicy wynosi 10. 
+Wykonaj program w trzech wariantach, w zależności od rodzaju wykorzystanej tablicy/
+wektora. Użyj:
+• tablicy statycznej (wariant pierwszy),
+• tablicy dynamicznej (wariant drugi),
+• wektora (wariant trzeci).
+Dane wejściowe (wartości elementów składowych tablicy/wektora) mają być wprowadzane z klawiatury. Wyniki powinny być wyświetlane w konsoli na ekranie monitora.
+
+• tablicy statycznej
+
+#include <iostream>
+#include <algorithm>
+
+const int SIZE = 10;
+
+int main() {
+    double array[SIZE];
+    
+    std::cout << "Podaj " << SIZE << " liczb rzeczywistych:\n";
+    for (int i = 0; i < SIZE; ++i) {
+        std::cin >> array[i];
+    }
+
+    double max_value = *std::max_element(array, array + SIZE);
+    double min_value = *std::min_element(array, array + SIZE);
+
+    std::cout << "Wartość maksymalna: " << max_value << std::endl;
+    std::cout << "Wartość minimalna: " << min_value << std::endl;
+
+    return 0;
+}
+
+• tablicy dynamicznej
+
+#include <iostream>
+#include <algorithm>
+
+int main() {
+    int size;
+    std::cout << "Podaj liczbę elementów tablicy: ";
+    std::cin >> size;
+
+    double* array = new double[size];
+
+    std::cout << "Podaj " << size << " liczb rzeczywistych:\n";
+    for (int i = 0; i < size; ++i) {
+        std::cin >> array[i];
+    }
+
+    double max_value = *std::max_element(array, array + size);
+    double min_value = *std::min_element(array, array + size);
+
+    std::cout << "Wartość maksymalna: " << max_value << std::endl;
+    std::cout << "Wartość minimalna: " << min_value << std::endl;
+
+    delete[] array;
+
+    return 0;
+}
+
+• wektora
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+int main() {
+    int size;
+    std::cout << "Podaj liczbę elementów wektora: ";
+    std::cin >> size;
+
+    std::vector<double> vec(size);
+
+    std::cout << "Podaj " << size << " liczb rzeczywistych:\n";
+    for (int i = 0; i < size; ++i) {
+        std::cin >> vec[i];
+    }
+
+    double max_value = *std::max_element(vec.begin(), vec.end());
+    double min_value = *std::min_element(vec.begin(), vec.end());
+
+    std::cout << "Wartość maksymalna: " << max_value << std::endl;
+    std::cout << "Wartość minimalna: " << min_value << std::endl;
+
+    return 0;
+}
+
+
+2. Napisz program umożliwiający posortowanie w porządku rosnącym elementów tablicy 
+jednowymiarowej o wartościach należących do typu całkowitego za pomocą metody 
+bąbelkowej (ang. bubble sort). Wykorzystaj tablicę statyczną. Wykonaj program w dwóch 
+wariantach — odwołanie do elementów składowych tablicy zrealizuj przy wykorzystaniu:
+• identyfikatora tablicy i operatora indeksowego (wariant pierwszy),
+• arytmetyki wskaźników i operatora dereferencji (wariant drugi).
+
+
+• identyfikatora tablicy i operatora indeksowego (wariant pierwszy),
+
+
+#include <iostream>
+
+const int SIZE = 10;
+
+void bubbleSort(int arr[], int size) {
+    for (int i = 0; i < size - 1; ++i) {
+        for (int j = 0; j < size - i - 1; ++j) {
+            if (arr[j] > arr[j + 1]) {
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}
+
+int main() {
+    int array[SIZE];
+
+    std::cout << "Podaj " << SIZE << " liczb całkowitych:\n";
+    for (int i = 0; i < SIZE; ++i) {
+        std::cin >> array[i];
+    }
+
+    bubbleSort(array, SIZE);
+
+    std::cout << "Posortowana tablica:\n";
+    for (int i = 0; i < SIZE; ++i) {
+        std::cout << array[i] << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+
+
+
+• arytmetyki wskaźników i operatora dereferencji (wariant drugi).
+
+#include <iostream>
+
+const int SIZE = 10;
+
+void bubbleSort(int* arr, int size) {
+    for (int i = 0; i < size - 1; ++i) {
+        for (int j = 0; j < size - i - 1; ++j) {
+            if (*(arr + j) > *(arr + j + 1)) {
+                int temp = *(arr + j);
+                *(arr + j) = *(arr + j + 1);
+                *(arr + j + 1) = temp;
+            }
+        }
+    }
+}
+
+int main() {
+    int array[SIZE];
+
+    std::cout << "Podaj " << SIZE << " liczb całkowitych:\n";
+    for (int i = 0; i < SIZE; ++i) {
+        std::cin >> array[i];
+    }
+
+    bubbleSort(array, SIZE);
+
+    std::cout << "Posortowana tablica:\n";
+    for (int i = 0; i < SIZE; ++i) {
+        std::cout << array[i] << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
