@@ -1,0 +1,87 @@
+1. Czym się różni deklaracja funkcji od definicji funkcji?
+
+
+Deklaracja określa nazwy i charakterystyki funkcji, ale nie przydziela jej pamięci, natomiast definicja określa treść dla funkcji, przypisuje identyfikator do funkcji i przydziela pamięć masową
+
+2. Jak się ma liczba i typy argumentów wywołania funkcji względem liczby i typów odpowiadających im parametrów formalnych w definicji funkcji?
+
+Liczba i typy argumentów przekazywanych podczas wywoływania funkcji muszą być zgodne z liczbą i typami parametrów formalnych zdefiniowanych w definicji funkcji.
+
+
+3. W jaki sposób funkcja komunikuje się ze swoim otoczeniem (funkcją wywołującą)?
+
+
+Funkcja komunikuje się ze swoim otoczeniem poprzez parametry, wartość zwracaną, zmienne globalne oraz obsługę wyjątków.
+
+
+4. Co odróżnia parametr/argument funkcji przekazywany przez wartość od parametru/
+argumentu przekazywanego przez referencję?
+
+
+Parametr/argument funkcji przekazywany przez wartość kopiuje wartość przekazywanego obiektu, podczas gdy parametr/argument przekazywany przez referencję przekazuje wskaźnik do tego samego obiektu w pamięci.
+
+
+5. Czy wskaźniki mogą odgrywać rolę parametrów/argumentów funkcji?
+
+
+Tak, wskaźniki mogą być używane jako parametry/argumenty funkcji, umożliwiając funkcji dostęp do danych poprzez ich adres w pamięci.
+
+
+6. Omów zagadnienie przekazywania tablic jako parametrów/argumentów funkcji.
+
+
+Przekazywanie tablic jako parametrów/argumentów funkcji umożliwia funkcjom operowanie na danych tablicowych. W językach takich jak C i C++, tablice są przekazywane przez referencję, co oznacza, że funkcja operuje na oryginalnej tablicy, a nie na jej kopii. W innych językach, takich jak Python, tablice są przekazywane przez wartość referencji, co oznacza, że funkcja może modyfikować elementy tablicy, ale nie jej rozmiar ani referencję do niej.
+
+
+
+7. W jaki sposób przekazać C-strukturę do funkcji lub z funkcji?
+
+
+C-strukturę można przekazać do funkcji jako argument, deklarując parametr funkcji jako wskaźnik do struktury. W ten sposób funkcja będzie mogła operować na oryginalnej strukturze poprzez wskaźnik. Podobnie, z funkcji można zwrócić C-strukturę, zadeklarowawszy zwracany typ funkcji jako strukturę lub wskaźnik do struktury.
+
+
+
+8. Co oznacza określenie: funkcje przeciążone?
+
+
+Funkcje przeciążone to funkcje o tych samych nazwach, ale różniące się listą parametrów lub ich typami.
+
+
+9. Wymień najważniejsze cechy zmiennych globalnych i zmiennych lokalnych.
+
+
+Zmienne globalne:
+- Dostępne są w całym programie.
+- Zdefiniowane są poza funkcjami.
+- Mogą być modyfikowane przez dowolną funkcję w programie.
+
+Zmienne lokalne:
+- Dostępne są tylko w obrębie funkcji, w której zostały zdefiniowane.
+- Są tworzone i usuwane przy każdym wywołaniu funkcji.
+- Nie są dostępne spoza funkcji, w której zostały zdefiniowane.
+
+
+
+10. Dlaczego parametry/argumenty funkcji przekazywane przez wartość są jej zmiennymi 
+lokalnymi?
+
+
+Ponieważ parametry/argumenty funkcji przekazywane przez wartość są kopiami wartości przekazanych do funkcji, co oznacza, że funkcja operuje na lokalnych kopii tych wartości, a nie na oryginalnych danych znajdujących się poza funkcją.
+
+
+11. Wyjaśnij zagadnienie przesłaniania nazw zmiennych.
+
+Przesłanianie nazw zmiennych występuje, gdy jedna zmienna lub funkcja o tej samej nazwie jest widoczna w różnych zakresach w programie. W takim przypadku, zmienna lub funkcja w zakresie bardziej wewnętrznym "przesłania" (czyli zasłania) zmienną lub funkcję o tej samej nazwie w zakresie bardziej zewnętrznym. W efekcie, odwołując się do nazwy, program użyje tej znajdującej się w najbliższym zakresie, gdzie została zdefiniowana, a nie tej, która jest zasłonięta w zakresie bardziej zewnętrznym.
+
+
+
+12. Wymień i omów najważniejsze zasady programowania strukturalnego.
+
+
+
+Programowanie strukturalne opiera się na kilku kluczowych zasadach:
+- Dekompozycja: Programy są dzielone na mniejsze, bardziej zrozumiałe części, co ułatwia ich zrozumienie i utrzymanie.
+- Sekwencja: Instrukcje są wykonywane sekwencyjnie, po kolei, co oznacza, że program wykonuje jedno działanie po drugim.
+- Selekcja: Decyzje są podejmowane na podstawie warunków logicznych, które określają, które instrukcje mają zostać wykonane.
+- Iteracja: Instrukcje mogą być powtarzane, aby wykonać określone zadanie więcej niż raz, co umożliwia efektywne wykorzystanie kodu i zmniejsza powtarzalność.
+- Abstrakcja: Zadania są abstrahowane w celu wyodrębnienia istotnych elementów i ukrycia zbędnych detali, co prowadzi do czytelniejszego i bardziej modułowego kodu.
